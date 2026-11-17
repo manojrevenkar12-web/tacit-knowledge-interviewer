@@ -1,0 +1,58 @@
+{
+  "secondHolder": 0.4,
+  "misremember": 0.18,
+  "outdated": 0.3,
+  "spokenNumber": 0.15,
+  "tacitJitter": 0.08,
+  "movePower": {
+    "open": 0.75,
+    "example": 0.45,
+    "failure": 0.45,
+    "numbers": 0.4,
+    "why": 0.35,
+    "newcomer": 0.5,
+    "who": 0.3,
+    "confirm": 0.2,
+    "wrap": 0
+  },
+  "cueMatch": 0.8,
+  "fatigueAfterMin": 22,
+  "minutes": {
+    "question": 0.25,
+    "sentence": 0.35,
+    "filler": 0.25
+  },
+  "maxPerAnswer": 3,
+  "confirmCorrects": 0.75,
+  "staffQuestions": 40,
+  "unknownQuestions": 5,
+  "interviewMinutes": 30,
+  "models": {
+    "gpt-4.1-mini": {
+      "outage": 0.02,
+      "dropClaim": 0.08,
+      "bendQuote": 0.06,
+      "misreadValue": 0.06,
+      "fillerClaim": 0.12,
+      "wrongType": 0.08,
+      "extraCite": 0.08,
+      "missCite": 0.06,
+      "inventWhenEmpty": 0.3,
+      "ragInvent": 0.55
+    },
+    "gpt-4.1": {
+      "outage": 0.005,
+      "dropClaim": 0.03,
+      "bendQuote": 0.02,
+      "misreadValue": 0.02,
+      "fillerClaim": 0.05,
+      "wrongType": 0.03,
+      "extraCite": 0.03,
+      "missCite": 0.02,
+      "inventWhenEmpty": 0.15,
+      "ragInvent": 0.45
+    }
+  },
+  "expertHours": 3,
+  "maxSessions": 16
+}

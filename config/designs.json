@@ -1,0 +1,52 @@
+{
+  "designs": [
+    {
+      "name": "questionnaire",
+      "label": "Fixed questionnaire, transcript search",
+      "interviewer": "fixed",
+      "confirm": false,
+      "planner": "round_robin",
+      "answers": "transcripts"
+    },
+    {
+      "name": "free_llm",
+      "label": "A model interviews freely, transcript search",
+      "interviewer": "model",
+      "confirm": false,
+      "planner": "round_robin",
+      "answers": "transcripts"
+    },
+    {
+      "name": "platform",
+      "label": "Gap-driven interviews, risk planner, cited graph",
+      "interviewer": "gap",
+      "confirm": true,
+      "planner": "risk",
+      "answers": "graph"
+    },
+    {
+      "name": "no_check",
+      "label": "Platform without checking stated numbers",
+      "interviewer": "gap",
+      "confirm": false,
+      "planner": "risk",
+      "answers": "graph"
+    },
+    {
+      "name": "round_robin",
+      "label": "Platform, sessions in alphabetical order",
+      "interviewer": "gap",
+      "confirm": true,
+      "planner": "round_robin",
+      "answers": "graph"
+    },
+    {
+      "name": "graph_off",
+      "label": "Platform interviews, answers from transcripts",
+      "interviewer": "gap",
+      "confirm": true,
+      "planner": "risk",
+      "answers": "transcripts"
+    }
+  ]
+}

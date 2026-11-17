@@ -1,0 +1,3725 @@
+{
+  "note": "A recorded interview campaign: questions, answers as speech-to-text wrote them, and the claims the platform kept. No truth from the simulation.",
+  "interviews": [
+    {
+      "interviewId": "demo-d-iv01-E1",
+      "expert": "E1",
+      "focus": [
+        "startup",
+        "toolchange"
+      ],
+      "minutes": 16,
+      "why": "most knowledge at risk: startup, toolchange (score 30.0)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "startup",
+          "move": "open",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Anfahren der Maschinen ab?",
+          "answer": "Wenn die ersten Teile glänzende Stellen haben, ist das Werkzeug noch zu kalt, dann warten wir. Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. Der Zylinder der SGM-03 braucht beim Anfahren 50 Minuten zum Aufheizen.",
+          "minute": 1.2
+        },
+        {
+          "turn": 2,
+          "topic": "startup",
+          "move": "confirm",
+          "why": "check the stated 50 min",
+          "question": "Sie sagten eben 50 Minuten bei SGM-03. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Der Zylinder der SGM 3 braucht beim Anfahren 50 Minuten zum Aufheizen.",
+          "minute": 1.8
+        },
+        {
+          "turn": 3,
+          "topic": "startup",
+          "move": "failure",
+          "why": "startup: still missing procedure, exception, rationale, contact",
+          "question": "Was geht bei Anfahren der Maschinen typischerweise schief, und woran merken Sie das?",
+          "answer": "Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. Die SGM 7 macht nach dem Wochenende Ärger mit der Düse, die muss man zehn Minuten länger vorheizen.",
+          "minute": 2.65
+        },
+        {
+          "turn": 4,
+          "topic": "startup",
+          "move": "who",
+          "why": "startup: still missing procedure, rationale, contact",
+          "question": "Wen rufen Sie bei Anfahren der Maschinen an, wenn Sie nicht weiterkommen?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 3.15
+        },
+        {
+          "turn": 5,
+          "topic": "startup",
+          "move": "why",
+          "why": "startup: still missing procedure, rationale, contact",
+          "question": "Warum machen Sie das bei Anfahren der Maschinen genau so?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 3.65
+        },
+        {
+          "turn": 6,
+          "topic": "toolchange",
+          "move": "open",
+          "why": "toolchange: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugwechsel ab?",
+          "answer": "Die Schrauben am Werkzeug 2290 nur mit dem Drehmomentschlüssel anziehen, die Gewinde sind empfindlich.",
+          "minute": 4.25
+        },
+        {
+          "turn": 7,
+          "topic": "toolchange",
+          "move": "failure",
+          "why": "toolchange: still missing procedure, threshold, exception, rationale, contact",
+          "question": "Was geht bei Werkzeugwechsel typischerweise schief, und woran merken Sie das?",
+          "answer": "Das WZ 47 11 hat einen Schieber, der klemmt, wenn man es kalt einbaut, das wärmen wir auf sechzig Grad vor.",
+          "minute": 4.85
+        },
+        {
+          "turn": 8,
+          "topic": "toolchange",
+          "move": "confirm",
+          "why": "check the stated 60 °C",
+          "question": "Sie sagten eben 60 Grad bei WZ-4711. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Das Werkzeug 4711 hat einen Schieber, der klemmt, wenn man es kalt einbaut, das wärmen wir auf 60 Grad vor. Na ja, da gibt es verschiedene Meinungen im Team.",
+          "minute": 5.7
+        },
+        {
+          "turn": 9,
+          "topic": "toolchange",
+          "move": "numbers",
+          "why": "toolchange: still missing procedure, threshold, rationale, contact",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Werkzeugwechsel?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 6.2
+        },
+        {
+          "turn": 10,
+          "topic": "toolchange",
+          "move": "who",
+          "why": "toolchange: still missing procedure, threshold, rationale, contact",
+          "question": "Wen rufen Sie bei Werkzeugwechsel an, wenn Sie nicht weiterkommen?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 6.7
+        },
+        {
+          "turn": 11,
+          "topic": "colour",
+          "move": "open",
+          "why": "colour: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Farbwechsel ab?",
+          "answer": "Beim Farbwechsel spülen wir mit 5 Kilo Reinigungsgranulat.",
+          "minute": 7.3
+        },
+        {
+          "turn": 12,
+          "topic": "colour",
+          "move": "confirm",
+          "why": "check the stated 5 kg",
+          "question": "Sie sagten eben 5 Kilo. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Das lernt man halt mit der Zeit. Ja, das passt so. Beim Farbwechsel spülen wir mit fünf Kilo Reinigungsgranulat.",
+          "minute": 8.15
+        },
+        {
+          "turn": 13,
+          "topic": "colour",
+          "move": "failure",
+          "why": "colour: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was geht bei Farbwechsel typischerweise schief, und woran merken Sie das?",
+          "answer": "Von Schwarz auf Weiß an der SGM 3 reicht Spülen nie, da bauen wir die Schnecke aus. Das lernt man halt mit der Zeit.",
+          "minute": 9
+        },
+        {
+          "turn": 14,
+          "topic": "colour",
+          "move": "newcomer",
+          "why": "colour: still missing procedure, rule, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Farbwechsel sagen, das in keinem Handbuch steht?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 9.5
+        },
+        {
+          "turn": 15,
+          "topic": "colour",
+          "move": "who",
+          "why": "colour: still missing procedure, rule, rationale, contact",
+          "question": "Wen rufen Sie bei Farbwechsel an, wenn Sie nicht weiterkommen?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 10
+        },
+        {
+          "turn": 16,
+          "topic": "regrind",
+          "move": "open",
+          "why": "regrind: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Mahlgut und Ausschuss ab?",
+          "answer": "Mehr Mahlgut macht die Schlagzähigkeit kaputt, das merkt man erst beim Kunden. Ehrlich gesagt mache ich das inzwischen ohne nachzudenken.",
+          "minute": 10.85
+        },
+        {
+          "turn": 17,
+          "topic": "regrind",
+          "move": "failure",
+          "why": "regrind: still missing procedure, threshold, rule, exception, contact",
+          "question": "Was geht bei Mahlgut und Ausschuss typischerweise schief, und woran merken Sie das?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes. Das ist schon eine ganze Weile so bei uns.",
+          "minute": 11.6
+        },
+        {
+          "turn": 18,
+          "topic": "regrind",
+          "move": "example",
+          "why": "regrind: still missing procedure, threshold, rule, exception, contact",
+          "question": "Können Sie mir ein konkretes Beispiel geben, wann es bei Mahlgut und Ausschuss zuletzt schwierig war?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 12.1
+        },
+        {
+          "turn": 19,
+          "topic": "handover",
+          "move": "open",
+          "why": "handover: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Schichtübergabe ab?",
+          "answer": "Wenn die Nachtschicht nur zwei Leute hat, lassen wir die SGM elf nicht laufen, das schafft man nicht. Die Übergabe dauert bei uns fünfzehn Minuten.",
+          "minute": 13.05
+        },
+        {
+          "turn": 20,
+          "topic": "handover",
+          "move": "confirm",
+          "why": "check the stated 15 min",
+          "question": "Sie sagten eben 15 Minuten. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Die Übergabe dauert bei uns 15 Minuten.",
+          "minute": 13.65
+        },
+        {
+          "turn": 21,
+          "topic": "handover",
+          "move": "newcomer",
+          "why": "handover: still missing procedure, rule, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Schichtübergabe sagen, das in keinem Handbuch steht?",
+          "answer": "Offene Störungen kommen ins Übergabebuch, nicht nur mündlich.",
+          "minute": 14.25
+        },
+        {
+          "turn": 22,
+          "topic": "handover",
+          "move": "who",
+          "why": "handover: still missing procedure, rationale, contact",
+          "question": "Wen rufen Sie bei Schichtübergabe an, wenn Sie nicht weiterkommen?",
+          "answer": "Das war früher noch anders, aber egal. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 15
+        },
+        {
+          "turn": 23,
+          "topic": "handover",
+          "move": "why",
+          "why": "handover: still missing procedure, rationale, contact",
+          "question": "Warum machen Sie das bei Schichtübergabe genau so?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 15.5
+        },
+        {
+          "turn": 24,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv02-E2",
+      "expert": "E2",
+      "focus": [
+        "hydraulics",
+        "mouldtemp"
+      ],
+      "minutes": 14.55,
+      "why": "most knowledge at risk: hydraulics, mouldtemp (score 20.0)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "hydraulics",
+          "move": "open",
+          "why": "hydraulics: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Hydraulik-Wartung ab?",
+          "answer": "Bei einer Öltemperatur über 55 Grad prüfen wir sofort den Kühler.",
+          "minute": 0.6
+        },
+        {
+          "turn": 2,
+          "topic": "hydraulics",
+          "move": "confirm",
+          "why": "check the stated 55 °C",
+          "question": "Sie sagten eben 55 Grad. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Bei einer Öltemperatur über fünfundfünfzig Grad prüfen wir sofort den Kühler. Ehrlich gesagt mache ich das inzwischen ohne nachzudenken.",
+          "minute": 1.45
+        },
+        {
+          "turn": 3,
+          "topic": "hydraulics",
+          "move": "failure",
+          "why": "hydraulics: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was geht bei Hydraulik-Wartung typischerweise schief, und woran merken Sie das?",
+          "answer": "Ersatzteile für die alten Hydraulikpumpen hat nur noch die Firma Pumpen Reuter in Kassel. Wenn die SGM sieben beim Schließen ruckt, ist es fast immer das Proportionalventil, nicht die Pumpe.",
+          "minute": 2.4
+        },
+        {
+          "turn": 4,
+          "topic": "hydraulics",
+          "move": "newcomer",
+          "why": "hydraulics: still missing procedure, rule, rationale",
+          "question": "Was würden Sie einem neuen Kollegen zu Hydraulik-Wartung sagen, das in keinem Handbuch steht?",
+          "answer": "Das Hydrauliköl wechseln wir alle 2000 Betriebsstunden. Das ist schon eine ganze Weile so bei uns. Filter tauschen wir immer gegen das Original vom Hersteller, die billigen verstopfen nach zwei Wochen.",
+          "minute": 3.6
+        },
+        {
+          "turn": 5,
+          "topic": "hydraulics",
+          "move": "confirm",
+          "why": "check the stated 2000 h",
+          "question": "Sie sagten eben 2000 Stunden. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Das Hydrauliköl wechseln wir alle 2000 Betriebsstunden.",
+          "minute": 4.2
+        },
+        {
+          "turn": 6,
+          "topic": "hydraulics",
+          "move": "why",
+          "why": "hydraulics: still missing procedure, rationale",
+          "question": "Warum machen Sie das bei Hydraulik-Wartung genau so?",
+          "answer": "Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 4.95
+        },
+        {
+          "turn": 7,
+          "topic": "mouldtemp",
+          "move": "open",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugtemperierung ab?",
+          "answer": "Wir fahren das WZ-5502 so warm, weil sonst die Bindenähte reißen.",
+          "minute": 5.55
+        },
+        {
+          "turn": 8,
+          "topic": "mouldtemp",
+          "move": "failure",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Werkzeugtemperierung typischerweise schief, und woran merken Sie das?",
+          "answer": "Das Temperiergerät an der SGM elf zeigt fünf Grad zu wenig an, das muss man im Kopf dazurechnen.",
+          "minute": 6.15
+        },
+        {
+          "turn": 9,
+          "topic": "mouldtemp",
+          "move": "numbers",
+          "why": "mouldtemp: still missing procedure, threshold, rule, rationale, contact",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Werkzeugtemperierung?",
+          "answer": "Das WZ-5502 läuft mit 75 Grad Werkzeugtemperatur.",
+          "minute": 6.75
+        },
+        {
+          "turn": 10,
+          "topic": "mouldtemp",
+          "move": "confirm",
+          "why": "check the stated 75 °C",
+          "question": "Sie sagten eben 75 Grad bei WZ-5502. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Nein, warten Sie, das stimmt nicht ganz. Das WZ 55 02 läuft mit siebzig Grad Werkzeugtemperatur.",
+          "minute": 7.35
+        },
+        {
+          "turn": 11,
+          "topic": "mouldtemp",
+          "move": "newcomer",
+          "why": "mouldtemp: still missing rule, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Werkzeugtemperierung sagen, das in keinem Handbuch steht?",
+          "answer": "Das hat sich über die Jahre so eingespielt. Das läuft eigentlich ganz normal.",
+          "minute": 8.1
+        },
+        {
+          "turn": 12,
+          "topic": "mouldtemp",
+          "move": "who",
+          "why": "mouldtemp: still missing rule, rationale, contact",
+          "question": "Wen rufen Sie bei Werkzeugtemperierung an, wenn Sie nicht weiterkommen?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 8.6
+        },
+        {
+          "turn": 13,
+          "topic": "robot",
+          "move": "open",
+          "why": "robot: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Entnahmeroboter ab?",
+          "answer": "Der Greiferdruck für die Deckel aus dem WZ 47 11 liegt bei 3 bar. Wir teachen langsam, weil ein Crash mit dem Werkzeug Wochen kostet.",
+          "minute": 9.55
+        },
+        {
+          "turn": 14,
+          "topic": "robot",
+          "move": "confirm",
+          "why": "check the stated 3 bar",
+          "question": "Sie sagten eben 3 bar bei WZ-4711. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Der Greiferdruck für die Deckel aus dem WZ-4711 liegt bei drei bar. Die Saugnäpfe vom RB zwei jeden Freitag reinigen, sonst fallen die dünnen Teile.",
+          "minute": 10.5
+        },
+        {
+          "turn": 15,
+          "topic": "robot",
+          "move": "failure",
+          "why": "robot: still missing procedure, exception, contact",
+          "question": "Was geht bei Entnahmeroboter typischerweise schief, und woran merken Sie das?",
+          "answer": "Das lernt man halt mit der Zeit. Das läuft eigentlich ganz normal.",
+          "minute": 11.25
+        },
+        {
+          "turn": 16,
+          "topic": "robot",
+          "move": "example",
+          "why": "robot: still missing procedure, exception, contact",
+          "question": "Können Sie mir ein konkretes Beispiel geben, wann es bei Entnahmeroboter zuletzt schwierig war?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 11.75
+        },
+        {
+          "turn": 17,
+          "topic": "startup",
+          "move": "open",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Anfahren der Maschinen ab?",
+          "answer": "Der Zylinder der SGM-03 braucht beim Anfahren 50 Minuten zum Aufheizen.",
+          "minute": 12.35
+        },
+        {
+          "turn": 18,
+          "topic": "startup",
+          "move": "confirm",
+          "why": "check the stated 50 min",
+          "question": "Sie sagten eben 50 Minuten bei SGM-03. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Der Zylinder der SGM-03 braucht beim Anfahren 50 Minuten zum Aufheizen. Das hat sich über die Jahre so eingespielt.",
+          "minute": 13.2
+        },
+        {
+          "turn": 19,
+          "topic": "startup",
+          "move": "failure",
+          "why": "startup: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was geht bei Anfahren der Maschinen typischerweise schief, und woran merken Sie das?",
+          "answer": "Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. Beim Anfahren der SGM-07 fahren wir erst 15 Schuss in den Ausschuss.",
+          "minute": 14.05
+        },
+        {
+          "turn": 20,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv03-E5",
+      "expert": "E5",
+      "focus": [
+        "drying",
+        "substitutes"
+      ],
+      "minutes": 13.9,
+      "why": "most knowledge at risk: drying, substitutes (score 15.0)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "drying",
+          "move": "open",
+          "why": "drying: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Materialtrocknung ab?",
+          "answer": "Der Trockner wird immer eine Schicht vorher eingeschaltet.",
+          "minute": 0.6
+        },
+        {
+          "turn": 2,
+          "topic": "drying",
+          "move": "failure",
+          "why": "drying: still missing threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Materialtrocknung typischerweise schief, und woran merken Sie das?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes. Das war früher noch anders, aber egal.",
+          "minute": 1.35
+        },
+        {
+          "turn": 3,
+          "topic": "drying",
+          "move": "newcomer",
+          "why": "drying: still missing threshold, rule, exception, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Materialtrocknung sagen, das in keinem Handbuch steht?",
+          "answer": "Wenn es draußen schwül ist, über 65 Prozent Luftfeuchte, trockne ich eine Stunde länger. Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. POM C trocknen wir normalerweise gar nicht, nur wenn Kondenswasser im Sack ist. PA sechs GF dreißig aus einem offenen Sack trocknen wir 7 Stunden bei achtzig Grad.",
+          "minute": 2.9
+        },
+        {
+          "turn": 4,
+          "topic": "drying",
+          "move": "confirm",
+          "why": "check the stated 65 %",
+          "question": "Sie sagten eben 65 Prozent. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Wenn es draußen schwül ist, über 65 Prozent Luftfeuchte, trockne ich eine Stunde länger. Ein frischer Sack PA sechs GF dreißig braucht dagegen nur 2 Stunden.",
+          "minute": 3.85
+        },
+        {
+          "turn": 5,
+          "topic": "drying",
+          "move": "confirm",
+          "why": "check the stated 7 h",
+          "question": "Sie sagten eben 7 Stunden bei PA6-GF30. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. PA6-GF30 aus einem offenen Sack trocknen wir 7 Stunden bei achtzig Grad.",
+          "minute": 4.45
+        },
+        {
+          "turn": 6,
+          "topic": "drying",
+          "move": "who",
+          "why": "drying: still missing rationale, contact",
+          "question": "Wen rufen Sie bei Materialtrocknung an, wenn Sie nicht weiterkommen?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 4.95
+        },
+        {
+          "turn": 7,
+          "topic": "drying",
+          "move": "why",
+          "why": "drying: still missing rationale, contact",
+          "question": "Warum machen Sie das bei Materialtrocknung genau so?",
+          "answer": "Wir trocknen nicht länger als nötig, weil das Polyamid sonst vergilbt.",
+          "minute": 5.55
+        },
+        {
+          "turn": 8,
+          "topic": "substitutes",
+          "move": "open",
+          "why": "substitutes: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Materialersatz im Einkauf ab?",
+          "answer": "Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 6.3
+        },
+        {
+          "turn": 9,
+          "topic": "substitutes",
+          "move": "failure",
+          "why": "substitutes: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Materialersatz im Einkauf typischerweise schief, und woran merken Sie das?",
+          "answer": "Das hat sich über die Jahre so eingespielt. Rheinpolymer liefert im August nicht, die haben Betriebsferien, also bestellen wir im Juli vor.",
+          "minute": 7.15
+        },
+        {
+          "turn": 10,
+          "topic": "substitutes",
+          "move": "numbers",
+          "why": "substitutes: still missing procedure, threshold, rule, rationale, contact",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Materialersatz im Einkauf?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes. Das hat sich über die Jahre so eingespielt.",
+          "minute": 7.9
+        },
+        {
+          "turn": 11,
+          "topic": "substitutes",
+          "move": "newcomer",
+          "why": "substitutes: still missing procedure, threshold, rule, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Materialersatz im Einkauf sagen, das in keinem Handbuch steht?",
+          "answer": "Polycarbonat kaufen wir nur als Sackware, weil die Oktabins bei uns feucht werden. Wenn PA6-GF30 nicht lieferbar ist, darf nur das Material von Rheinpolymer als Ersatz, nur das ist bei Brenner freigegeben.",
+          "minute": 8.85
+        },
+        {
+          "turn": 12,
+          "topic": "substitutes",
+          "move": "who",
+          "why": "substitutes: still missing procedure, threshold, contact",
+          "question": "Wen rufen Sie bei Materialersatz im Einkauf an, wenn Sie nicht weiterkommen?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 9.35
+        },
+        {
+          "turn": 13,
+          "topic": "complaints",
+          "move": "open",
+          "why": "complaints: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Reklamationen ab?",
+          "answer": "Gutschriften über 1000 Euro muss die Geschäftsführung freigeben. Das war früher noch anders, aber egal.",
+          "minute": 10.2
+        },
+        {
+          "turn": 14,
+          "topic": "complaints",
+          "move": "confirm",
+          "why": "check the stated 1000 EUR",
+          "question": "Sie sagten eben 1000 Euro. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Gutschriften über 1000 Euro muss die Geschäftsführung freigeben. Na ja, da gibt es verschiedene Meinungen im Team.",
+          "minute": 11.05
+        },
+        {
+          "turn": 15,
+          "topic": "complaints",
+          "move": "failure",
+          "why": "complaints: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was geht bei Reklamationen typischerweise schief, und woran merken Sie das?",
+          "answer": "Das war früher noch anders, aber egal. Wenn Lumatec über Verzug klagt, liegt es meist an deren Lagerung im Sommer, das prüfen wir zuerst.",
+          "minute": 11.9
+        },
+        {
+          "turn": 16,
+          "topic": "complaints",
+          "move": "newcomer",
+          "why": "complaints: still missing procedure, rule, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Reklamationen sagen, das in keinem Handbuch steht?",
+          "answer": "Das lernt man halt mit der Zeit. Das läuft eigentlich ganz normal.",
+          "minute": 12.65
+        },
+        {
+          "turn": 17,
+          "topic": "complaints",
+          "move": "who",
+          "why": "complaints: still missing procedure, rule, rationale, contact",
+          "question": "Wen rufen Sie bei Reklamationen an, wenn Sie nicht weiterkommen?",
+          "answer": "Na ja, da gibt es verschiedene Meinungen im Team. Das läuft eigentlich ganz normal.",
+          "minute": 13.4
+        },
+        {
+          "turn": 18,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv04-E1",
+      "expert": "E1",
+      "focus": [
+        "regrind",
+        "colour"
+      ],
+      "minutes": 12.2,
+      "why": "most knowledge at risk: regrind, colour (score 14.0)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "regrind",
+          "move": "open",
+          "why": "regrind: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Mahlgut und Ausschuss ab?",
+          "answer": "Das ist schon eine ganze Weile so bei uns. Das läuft eigentlich ganz normal.",
+          "minute": 0.75
+        },
+        {
+          "turn": 2,
+          "topic": "regrind",
+          "move": "failure",
+          "why": "regrind: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Mahlgut und Ausschuss typischerweise schief, und woran merken Sie das?",
+          "answer": "Bei Teilen für Brenner darf gar kein Mahlgut rein, das steht im Vertrag.",
+          "minute": 1.35
+        },
+        {
+          "turn": 3,
+          "topic": "regrind",
+          "move": "numbers",
+          "why": "regrind: still missing procedure, threshold, exception, rationale, contact",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Mahlgut und Ausschuss?",
+          "answer": "Das hat sich über die Jahre so eingespielt. Mahlgut dürfen wir beim PP T zwanzig bis zehn Prozent zumischen.",
+          "minute": 2.2
+        },
+        {
+          "turn": 4,
+          "topic": "regrind",
+          "move": "confirm",
+          "why": "check the stated 10 %",
+          "question": "Sie sagten eben 10 Prozent bei PP-T20. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Mahlgut dürfen wir beim PP T 20 bis zehn Prozent zumischen.",
+          "minute": 2.8
+        },
+        {
+          "turn": 5,
+          "topic": "regrind",
+          "move": "example",
+          "why": "regrind: still missing procedure, exception, rationale, contact",
+          "question": "Können Sie mir ein konkretes Beispiel geben, wann es bei Mahlgut und Ausschuss zuletzt schwierig war?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 3.3
+        },
+        {
+          "turn": 6,
+          "topic": "regrind",
+          "move": "who",
+          "why": "regrind: still missing procedure, exception, rationale, contact",
+          "question": "Wen rufen Sie bei Mahlgut und Ausschuss an, wenn Sie nicht weiterkommen?",
+          "answer": "Das läuft eigentlich ganz normal. Da müsste ich eigentlich mal nachschauen.",
+          "minute": 4.05
+        },
+        {
+          "turn": 7,
+          "topic": "colour",
+          "move": "open",
+          "why": "colour: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Farbwechsel ab?",
+          "answer": "Beim Auftrag für Lumatec hatten wir schwarze Punkte, weil der Trichter nicht leer war, seitdem saugen wir ihn aus.",
+          "minute": 4.65
+        },
+        {
+          "turn": 8,
+          "topic": "colour",
+          "move": "numbers",
+          "why": "colour: still missing procedure, threshold, rule, rationale, contact",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Farbwechsel?",
+          "answer": "Das war früher noch anders, aber egal. Das läuft eigentlich ganz normal.",
+          "minute": 5.4
+        },
+        {
+          "turn": 9,
+          "topic": "colour",
+          "move": "newcomer",
+          "why": "colour: still missing procedure, threshold, rule, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Farbwechsel sagen, das in keinem Handbuch steht?",
+          "answer": "Da müsste ich eigentlich mal nachschauen. Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 6.15
+        },
+        {
+          "turn": 10,
+          "topic": "startup",
+          "move": "open",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Anfahren der Maschinen ab?",
+          "answer": "Die Reihenfolge ist wichtig, weil sonst die Dichtungen im Werkzeug leiden. Beim Anfahren der SGM sieben fahren wir erst 15 Schuss in den Ausschuss.",
+          "minute": 7.1
+        },
+        {
+          "turn": 11,
+          "topic": "startup",
+          "move": "confirm",
+          "why": "check the stated 15 Schuss",
+          "question": "Sie sagten eben 15 Schuss bei SGM-07. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Beim Anfahren der SGM-07 fahren wir erst 15 Schuss in den Ausschuss.",
+          "minute": 7.7
+        },
+        {
+          "turn": 12,
+          "topic": "startup",
+          "move": "failure",
+          "why": "startup: still missing procedure, rule, exception, contact",
+          "question": "Was geht bei Anfahren der Maschinen typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein. Das ist schon eine ganze Weile so bei uns.",
+          "minute": 8.45
+        },
+        {
+          "turn": 13,
+          "topic": "startup",
+          "move": "example",
+          "why": "startup: still missing procedure, rule, exception, contact",
+          "question": "Können Sie mir ein konkretes Beispiel geben, wann es bei Anfahren der Maschinen zuletzt schwierig war?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 8.95
+        },
+        {
+          "turn": 14,
+          "topic": "toolchange",
+          "move": "open",
+          "why": "toolchange: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugwechsel ab?",
+          "answer": "Das war früher noch anders, aber egal. Das läuft eigentlich ganz normal.",
+          "minute": 9.7
+        },
+        {
+          "turn": 15,
+          "topic": "toolchange",
+          "move": "failure",
+          "why": "toolchange: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Werkzeugwechsel typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 10.2
+        },
+        {
+          "turn": 16,
+          "topic": "handover",
+          "move": "open",
+          "why": "handover: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Schichtübergabe ab?",
+          "answer": "Das lernt man halt mit der Zeit. Das läuft eigentlich ganz normal.",
+          "minute": 10.95
+        },
+        {
+          "turn": 17,
+          "topic": "handover",
+          "move": "failure",
+          "why": "handover: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Schichtübergabe typischerweise schief, und woran merken Sie das?",
+          "answer": "Das läuft eigentlich ganz normal. Das hat sich über die Jahre so eingespielt.",
+          "minute": 11.7
+        },
+        {
+          "turn": 18,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv05-E2",
+      "expert": "E2",
+      "focus": [
+        "startup",
+        "mouldtemp"
+      ],
+      "minutes": 6.85,
+      "why": "most knowledge at risk: startup, mouldtemp (score 11.6)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "startup",
+          "move": "open",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Anfahren der Maschinen ab?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 0.5
+        },
+        {
+          "turn": 2,
+          "topic": "startup",
+          "move": "failure",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Anfahren der Maschinen typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 1
+        },
+        {
+          "turn": 3,
+          "topic": "mouldtemp",
+          "move": "open",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugtemperierung ab?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 1.5
+        },
+        {
+          "turn": 4,
+          "topic": "mouldtemp",
+          "move": "failure",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Werkzeugtemperierung typischerweise schief, und woran merken Sie das?",
+          "answer": "Das läuft eigentlich ganz normal. Na ja, da gibt es verschiedene Meinungen im Team.",
+          "minute": 2.25
+        },
+        {
+          "turn": 5,
+          "topic": "hydraulics",
+          "move": "open",
+          "why": "hydraulics: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Hydraulik-Wartung ab?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 2.75
+        },
+        {
+          "turn": 6,
+          "topic": "hydraulics",
+          "move": "failure",
+          "why": "hydraulics: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Hydraulik-Wartung typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein. Das lernt man halt mit der Zeit.",
+          "minute": 3.5
+        },
+        {
+          "turn": 7,
+          "topic": "robot",
+          "move": "open",
+          "why": "robot: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Entnahmeroboter ab?",
+          "answer": "Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 4.25
+        },
+        {
+          "turn": 8,
+          "topic": "robot",
+          "move": "failure",
+          "why": "robot: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Entnahmeroboter typischerweise schief, und woran merken Sie das?",
+          "answer": "Das lernt man halt mit der Zeit. Der Robo zwei verliert nach einem Stromausfall den Nullpunkt der Achse drei, das sieht man erst beim zweiten Teil.",
+          "minute": 5.1
+        },
+        {
+          "turn": 9,
+          "topic": "robot",
+          "move": "numbers",
+          "why": "robot: still missing procedure, threshold, rule, rationale, contact",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Entnahmeroboter?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 5.6
+        },
+        {
+          "turn": 10,
+          "topic": "robot",
+          "move": "newcomer",
+          "why": "robot: still missing procedure, threshold, rule, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Entnahmeroboter sagen, das in keinem Handbuch steht?",
+          "answer": "Da müsste ich eigentlich mal nachschauen. Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 6.35
+        },
+        {
+          "turn": 11,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv06-E1",
+      "expert": "E1",
+      "focus": [
+        "toolchange",
+        "handover"
+      ],
+      "minutes": 7.45,
+      "why": "most knowledge at risk: toolchange, handover (score 9.4)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "toolchange",
+          "move": "open",
+          "why": "toolchange: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugwechsel ab?",
+          "answer": "Für einen Werkzeugwechsel an der SGM elf planen wir 35 Minuten.",
+          "minute": 0.6
+        },
+        {
+          "turn": 2,
+          "topic": "toolchange",
+          "move": "confirm",
+          "why": "check the stated 35 min",
+          "question": "Sie sagten eben 35 Minuten bei SGM-11. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Für einen Werkzeugwechsel an der SGM-11 planen wir fünfunddreißig Minuten.",
+          "minute": 1.2
+        },
+        {
+          "turn": 3,
+          "topic": "toolchange",
+          "move": "failure",
+          "why": "toolchange: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was geht bei Werkzeugwechsel typischerweise schief, und woran merken Sie das?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 1.7
+        },
+        {
+          "turn": 4,
+          "topic": "toolchange",
+          "move": "newcomer",
+          "why": "toolchange: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Werkzeugwechsel sagen, das in keinem Handbuch steht?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 2.2
+        },
+        {
+          "turn": 5,
+          "topic": "handover",
+          "move": "open",
+          "why": "handover: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Schichtübergabe ab?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 2.7
+        },
+        {
+          "turn": 6,
+          "topic": "handover",
+          "move": "failure",
+          "why": "handover: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Schichtübergabe typischerweise schief, und woran merken Sie das?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 3.2
+        },
+        {
+          "turn": 7,
+          "topic": "startup",
+          "move": "open",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Anfahren der Maschinen ab?",
+          "answer": "Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 3.95
+        },
+        {
+          "turn": 8,
+          "topic": "startup",
+          "move": "failure",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Anfahren der Maschinen typischerweise schief, und woran merken Sie das?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 4.45
+        },
+        {
+          "turn": 9,
+          "topic": "colour",
+          "move": "open",
+          "why": "colour: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Farbwechsel ab?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 4.95
+        },
+        {
+          "turn": 10,
+          "topic": "colour",
+          "move": "failure",
+          "why": "colour: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Farbwechsel typischerweise schief, und woran merken Sie das?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 5.45
+        },
+        {
+          "turn": 11,
+          "topic": "regrind",
+          "move": "open",
+          "why": "regrind: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Mahlgut und Ausschuss ab?",
+          "answer": "Das lernt man halt mit der Zeit. Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 6.2
+        },
+        {
+          "turn": 12,
+          "topic": "regrind",
+          "move": "failure",
+          "why": "regrind: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Mahlgut und Ausschuss typischerweise schief, und woran merken Sie das?",
+          "answer": "Das ist schon eine ganze Weile so bei uns. Das läuft eigentlich ganz normal.",
+          "minute": 6.95
+        },
+        {
+          "turn": 13,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv07-E2",
+      "expert": "E2",
+      "focus": [
+        "startup",
+        "mouldtemp"
+      ],
+      "minutes": 5,
+      "why": "most knowledge at risk: startup, mouldtemp (score 8.4)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "startup",
+          "move": "open",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Anfahren der Maschinen ab?",
+          "answer": "Das ist schon eine ganze Weile so bei uns. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 0.75
+        },
+        {
+          "turn": 2,
+          "topic": "startup",
+          "move": "failure",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Anfahren der Maschinen typischerweise schief, und woran merken Sie das?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 1.25
+        },
+        {
+          "turn": 3,
+          "topic": "mouldtemp",
+          "move": "open",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugtemperierung ab?",
+          "answer": "Da müsste ich eigentlich mal nachschauen. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 2
+        },
+        {
+          "turn": 4,
+          "topic": "mouldtemp",
+          "move": "failure",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Werkzeugtemperierung typischerweise schief, und woran merken Sie das?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 2.5
+        },
+        {
+          "turn": 5,
+          "topic": "hydraulics",
+          "move": "open",
+          "why": "hydraulics: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Hydraulik-Wartung ab?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 3
+        },
+        {
+          "turn": 6,
+          "topic": "hydraulics",
+          "move": "failure",
+          "why": "hydraulics: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Hydraulik-Wartung typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 3.5
+        },
+        {
+          "turn": 7,
+          "topic": "robot",
+          "move": "open",
+          "why": "robot: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Entnahmeroboter ab?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 4
+        },
+        {
+          "turn": 8,
+          "topic": "robot",
+          "move": "failure",
+          "why": "robot: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Entnahmeroboter typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 4.5
+        },
+        {
+          "turn": 9,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv08-E3",
+      "expert": "E3",
+      "focus": [
+        "drying",
+        "mouldtemp"
+      ],
+      "minutes": 12.4,
+      "why": "most knowledge at risk: drying, mouldtemp (score 7.5)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "drying",
+          "move": "open",
+          "why": "drying: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Materialtrocknung ab?",
+          "answer": "Das war früher noch anders, aber egal. PA 6 GF 30 aus einem offenen Sack trocknen wir sechs Stunden bei achtzig Grad.",
+          "minute": 0.85
+        },
+        {
+          "turn": 2,
+          "topic": "drying",
+          "move": "confirm",
+          "why": "check the stated 6 h",
+          "question": "Sie sagten eben 6 Stunden bei PA6-GF30. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. PA 6 GF 30 aus einem offenen Sack trocknen wir 6 Stunden bei achtzig Grad.",
+          "minute": 1.45
+        },
+        {
+          "turn": 3,
+          "topic": "drying",
+          "move": "failure",
+          "why": "drying: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was geht bei Materialtrocknung typischerweise schief, und woran merken Sie das?",
+          "answer": "Wenn es draußen schwül ist, über 65 Prozent Luftfeuchte, trockne ich eine Stunde länger. Das hat sich über die Jahre so eingespielt.",
+          "minute": 2.3
+        },
+        {
+          "turn": 4,
+          "topic": "drying",
+          "move": "confirm",
+          "why": "check the stated 65 %",
+          "question": "Sie sagten eben 65 Prozent. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Wenn es draußen schwül ist, über 65 Prozent Luftfeuchte, trockne ich eine Stunde länger.",
+          "minute": 2.9
+        },
+        {
+          "turn": 5,
+          "topic": "drying",
+          "move": "newcomer",
+          "why": "drying: still missing procedure, rule, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Materialtrocknung sagen, das in keinem Handbuch steht?",
+          "answer": "Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. Das läuft eigentlich ganz normal.",
+          "minute": 3.65
+        },
+        {
+          "turn": 6,
+          "topic": "mouldtemp",
+          "move": "open",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugtemperierung ab?",
+          "answer": "Die Temperiergeräte prüfen wir jeden Montag auf den Wasserstand.",
+          "minute": 4.25
+        },
+        {
+          "turn": 7,
+          "topic": "mouldtemp",
+          "move": "failure",
+          "why": "mouldtemp: still missing threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Werkzeugtemperierung typischerweise schief, und woran merken Sie das?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 4.75
+        },
+        {
+          "turn": 8,
+          "topic": "mouldtemp",
+          "move": "newcomer",
+          "why": "mouldtemp: still missing threshold, rule, exception, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Werkzeugtemperierung sagen, das in keinem Handbuch steht?",
+          "answer": "Das läuft eigentlich ganz normal. Na ja, da gibt es verschiedene Meinungen im Team.",
+          "minute": 5.5
+        },
+        {
+          "turn": 9,
+          "topic": "startup",
+          "move": "open",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Anfahren der Maschinen ab?",
+          "answer": "Die Reihenfolge ist wichtig, weil sonst die Dichtungen im Werkzeug leiden. Erst die Werkzeugtemperierung an, dann die Zylinderheizung, dann die Hydraulik. Das war früher noch anders, aber egal.",
+          "minute": 6.7
+        },
+        {
+          "turn": 10,
+          "topic": "startup",
+          "move": "failure",
+          "why": "startup: still missing threshold, rule, exception, contact",
+          "question": "Was geht bei Anfahren der Maschinen typischerweise schief, und woran merken Sie das?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 7.2
+        },
+        {
+          "turn": 11,
+          "topic": "startup",
+          "move": "example",
+          "why": "startup: still missing threshold, rule, exception, contact",
+          "question": "Können Sie mir ein konkretes Beispiel geben, wann es bei Anfahren der Maschinen zuletzt schwierig war?",
+          "answer": "Wenn die ersten Teile glänzende Stellen haben, ist das Werkzeug noch zu kalt, dann warten wir.",
+          "minute": 7.8
+        },
+        {
+          "turn": 12,
+          "topic": "startup",
+          "move": "numbers",
+          "why": "startup: still missing threshold, exception, contact",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Anfahren der Maschinen?",
+          "answer": "Na ja, da gibt es verschiedene Meinungen im Team. Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 8.55
+        },
+        {
+          "turn": 13,
+          "topic": "startup",
+          "move": "who",
+          "why": "startup: still missing threshold, exception, contact",
+          "question": "Wen rufen Sie bei Anfahren der Maschinen an, wenn Sie nicht weiterkommen?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 9.05
+        },
+        {
+          "turn": 14,
+          "topic": "regrind",
+          "move": "open",
+          "why": "regrind: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Mahlgut und Ausschuss ab?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 9.55
+        },
+        {
+          "turn": 15,
+          "topic": "regrind",
+          "move": "failure",
+          "why": "regrind: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Mahlgut und Ausschuss typischerweise schief, und woran merken Sie das?",
+          "answer": "Da müsste ich eigentlich mal nachschauen. Mahlgut von gelben Teilen halten wir getrennt, sonst gibt es Farbschlieren.",
+          "minute": 10.4
+        },
+        {
+          "turn": 16,
+          "topic": "regrind",
+          "move": "newcomer",
+          "why": "regrind: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Mahlgut und Ausschuss sagen, das in keinem Handbuch steht?",
+          "answer": "Das hat sich über die Jahre so eingespielt. Das läuft eigentlich ganz normal.",
+          "minute": 11.15
+        },
+        {
+          "turn": 17,
+          "topic": "regrind",
+          "move": "example",
+          "why": "regrind: still missing procedure, rule, exception, rationale, contact",
+          "question": "Können Sie mir ein konkretes Beispiel geben, wann es bei Mahlgut und Ausschuss zuletzt schwierig war?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes. Das lernt man halt mit der Zeit.",
+          "minute": 11.9
+        },
+        {
+          "turn": 18,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv09-E7",
+      "expert": "E7",
+      "focus": [
+        "mouldtemp",
+        "toolchange"
+      ],
+      "minutes": 11.75,
+      "why": "most knowledge at risk: mouldtemp, toolchange (score 7.5)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "mouldtemp",
+          "move": "open",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugtemperierung ab?",
+          "answer": "Die Temperiergeräte wartet die Firma Kältetechnik Sommer, Frau Sommer kennt jede Macke. Na ja, da gibt es verschiedene Meinungen im Team. Die Temperiergeräte prüfen wir jeden Montag auf den Wasserstand. Das Werkzeug 5502 läuft mit 70 Grad Werkzeugtemperatur.",
+          "minute": 1.55
+        },
+        {
+          "turn": 2,
+          "topic": "mouldtemp",
+          "move": "confirm",
+          "why": "check the stated 70 °C",
+          "question": "Sie sagten eben 70 Grad bei WZ-5502. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Das WZ 55 02 läuft mit 70 Grad Werkzeugtemperatur.",
+          "minute": 2.15
+        },
+        {
+          "turn": 3,
+          "topic": "mouldtemp",
+          "move": "failure",
+          "why": "mouldtemp: still missing rule, exception, rationale",
+          "question": "Was geht bei Werkzeugtemperierung typischerweise schief, und woran merken Sie das?",
+          "answer": "Na ja, da gibt es verschiedene Meinungen im Team. Das Temperiergerät an der SGM-11 zeigt fünf Grad zu wenig an, das muss man im Kopf dazurechnen.",
+          "minute": 3
+        },
+        {
+          "turn": 4,
+          "topic": "mouldtemp",
+          "move": "newcomer",
+          "why": "mouldtemp: still missing rule, rationale",
+          "question": "Was würden Sie einem neuen Kollegen zu Werkzeugtemperierung sagen, das in keinem Handbuch steht?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 3.5
+        },
+        {
+          "turn": 5,
+          "topic": "mouldtemp",
+          "move": "why",
+          "why": "mouldtemp: still missing rule, rationale",
+          "question": "Warum machen Sie das bei Werkzeugtemperierung genau so?",
+          "answer": "Das lernt man halt mit der Zeit. Das läuft eigentlich ganz normal.",
+          "minute": 4.25
+        },
+        {
+          "turn": 6,
+          "topic": "toolchange",
+          "move": "open",
+          "why": "toolchange: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugwechsel ab?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 4.75
+        },
+        {
+          "turn": 7,
+          "topic": "toolchange",
+          "move": "failure",
+          "why": "toolchange: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Werkzeugwechsel typischerweise schief, und woran merken Sie das?",
+          "answer": "Das hat sich über die Jahre so eingespielt. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 5.5
+        },
+        {
+          "turn": 8,
+          "topic": "robot",
+          "move": "open",
+          "why": "robot: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Entnahmeroboter ab?",
+          "answer": "Die Saugnäpfe vom RB-2 jeden Freitag reinigen, sonst fallen die dünnen Teile. Das ist schon eine ganze Weile so bei uns. Nach jedem Werkzeugwechsel wird der RB-2 neu geteacht.",
+          "minute": 6.7
+        },
+        {
+          "turn": 9,
+          "topic": "robot",
+          "move": "failure",
+          "why": "robot: still missing threshold, exception, rationale, contact",
+          "question": "Was geht bei Entnahmeroboter typischerweise schief, und woran merken Sie das?",
+          "answer": "Wir teachen langsam, weil ein Crash mit dem Werkzeug Wochen kostet.",
+          "minute": 7.3
+        },
+        {
+          "turn": 10,
+          "topic": "robot",
+          "move": "numbers",
+          "why": "robot: still missing threshold, exception, contact",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Entnahmeroboter?",
+          "answer": "Der Greiferdruck für die Deckel aus dem Werkzeug 4711 liegt bei 3 bar.",
+          "minute": 7.9
+        },
+        {
+          "turn": 11,
+          "topic": "robot",
+          "move": "confirm",
+          "why": "check the stated 3 bar",
+          "question": "Sie sagten eben 3 bar bei WZ-4711. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Der Greiferdruck für die Deckel aus dem WZ-4711 liegt bei 3 bar.",
+          "minute": 8.5
+        },
+        {
+          "turn": 12,
+          "topic": "robot",
+          "move": "example",
+          "why": "robot: still missing exception, contact",
+          "question": "Können Sie mir ein konkretes Beispiel geben, wann es bei Entnahmeroboter zuletzt schwierig war?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 9
+        },
+        {
+          "turn": 13,
+          "topic": "robot",
+          "move": "who",
+          "why": "robot: still missing exception, contact",
+          "question": "Wen rufen Sie bei Entnahmeroboter an, wenn Sie nicht weiterkommen?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein. Na ja, da gibt es verschiedene Meinungen im Team.",
+          "minute": 9.75
+        },
+        {
+          "turn": 14,
+          "topic": "colour",
+          "move": "open",
+          "why": "colour: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Farbwechsel ab?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein. Das hat sich über die Jahre so eingespielt.",
+          "minute": 10.5
+        },
+        {
+          "turn": 15,
+          "topic": "colour",
+          "move": "failure",
+          "why": "colour: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Farbwechsel typischerweise schief, und woran merken Sie das?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes. Ehrlich gesagt mache ich das inzwischen ohne nachzudenken.",
+          "minute": 11.25
+        },
+        {
+          "turn": 16,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv10-E8",
+      "expert": "E8",
+      "focus": [
+        "firstarticle",
+        "substitutes"
+      ],
+      "minutes": 11.35,
+      "why": "most knowledge at risk: firstarticle, substitutes (score 7.5)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "firstarticle",
+          "move": "open",
+          "why": "firstarticle: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Erstmusterprüfung ab?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 0.5
+        },
+        {
+          "turn": 2,
+          "topic": "firstarticle",
+          "move": "failure",
+          "why": "firstarticle: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Erstmusterprüfung typischerweise schief, und woran merken Sie das?",
+          "answer": "Bei Fragen zur Zeichnung von Brenner ist Herr Lindner der richtige Ansprechpartner, nicht deren Einkauf. Na ja, da gibt es verschiedene Meinungen im Team.",
+          "minute": 1.35
+        },
+        {
+          "turn": 3,
+          "topic": "firstarticle",
+          "move": "example",
+          "why": "firstarticle: still missing procedure, threshold, rule, exception, rationale",
+          "question": "Können Sie mir ein konkretes Beispiel geben, wann es bei Erstmusterprüfung zuletzt schwierig war?",
+          "answer": "Na ja, da gibt es verschiedene Meinungen im Team. Für die Erstmusterprüfung messen wir 8 Teile aus der Serie.",
+          "minute": 2.2
+        },
+        {
+          "turn": 4,
+          "topic": "firstarticle",
+          "move": "confirm",
+          "why": "check the stated 8 Teile",
+          "question": "Sie sagten eben 8 Teile. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Für die Erstmusterprüfung messen wir 8 Teile aus der Serie.",
+          "minute": 2.8
+        },
+        {
+          "turn": 5,
+          "topic": "firstarticle",
+          "move": "newcomer",
+          "why": "firstarticle: still missing procedure, rule, exception, rationale",
+          "question": "Was würden Sie einem neuen Kollegen zu Erstmusterprüfung sagen, das in keinem Handbuch steht?",
+          "answer": "Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. Bei Teilen aus dem Werkzeug 2290 misst die Messmaschine die Rippenhöhe falsch, die messen wir von Hand. Bei Brenner muss der Prüfbericht vor dem ersten Versand im Kundenportal hochgeladen sein.",
+          "minute": 4
+        },
+        {
+          "turn": 6,
+          "topic": "firstarticle",
+          "move": "why",
+          "why": "firstarticle: still missing procedure, rationale",
+          "question": "Warum machen Sie das bei Erstmusterprüfung genau so?",
+          "answer": "Na ja, da gibt es verschiedene Meinungen im Team. Das läuft eigentlich ganz normal.",
+          "minute": 4.75
+        },
+        {
+          "turn": 7,
+          "topic": "substitutes",
+          "move": "open",
+          "why": "substitutes: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Materialersatz im Einkauf ab?",
+          "answer": "Das ist schon eine ganze Weile so bei uns. Der Mindestbestand für PA 6 GF 30 liegt bei 7 Tonnen.",
+          "minute": 5.6
+        },
+        {
+          "turn": 8,
+          "topic": "substitutes",
+          "move": "confirm",
+          "why": "check the stated 7 t",
+          "question": "Sie sagten eben 7 Tonnen bei PA6-GF30. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Der Mindestbestand für PA6-GF30 liegt bei 7 Tonnen.",
+          "minute": 6.2
+        },
+        {
+          "turn": 9,
+          "topic": "substitutes",
+          "move": "failure",
+          "why": "substitutes: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was geht bei Materialersatz im Einkauf typischerweise schief, und woran merken Sie das?",
+          "answer": "Das hat sich über die Jahre so eingespielt. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 6.95
+        },
+        {
+          "turn": 10,
+          "topic": "complaints",
+          "move": "open",
+          "why": "complaints: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Reklamationen ab?",
+          "answer": "Bei Brenner Automotive hatten wir mal Grat an den Teilen, da war das Werkzeug verschlissen. Jede Reklamation bekommt innerhalb von 48 Stunden eine erste Antwort.",
+          "minute": 7.9
+        },
+        {
+          "turn": 11,
+          "topic": "complaints",
+          "move": "confirm",
+          "why": "check the stated 48 h",
+          "question": "Sie sagten eben 48 Stunden. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Das lernt man halt mit der Zeit. Ja, das passt so. Jede Reklamation bekommt innerhalb von 48 Stunden eine erste Antwort.",
+          "minute": 8.75
+        },
+        {
+          "turn": 12,
+          "topic": "complaints",
+          "move": "newcomer",
+          "why": "complaints: still missing procedure, rule, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Reklamationen sagen, das in keinem Handbuch steht?",
+          "answer": "Hausgeräte Nord will immer einen 8D-Bericht, auch bei Kleinigkeiten. Das war früher noch anders, aber egal.",
+          "minute": 9.6
+        },
+        {
+          "turn": 13,
+          "topic": "complaints",
+          "move": "who",
+          "why": "complaints: still missing procedure, rationale, contact",
+          "question": "Wen rufen Sie bei Reklamationen an, wenn Sie nicht weiterkommen?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 10.1
+        },
+        {
+          "turn": 14,
+          "topic": "complaints",
+          "move": "why",
+          "why": "complaints: still missing procedure, rationale, contact",
+          "question": "Warum machen Sie das bei Reklamationen genau so?",
+          "answer": "Das ist schon eine ganze Weile so bei uns. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 10.85
+        },
+        {
+          "turn": 15,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv11-E4",
+      "expert": "E4",
+      "focus": [
+        "firstarticle",
+        "complaints"
+      ],
+      "minutes": 8.55,
+      "why": "most knowledge at risk: firstarticle, complaints (score 6.3)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "firstarticle",
+          "move": "open",
+          "why": "firstarticle: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Erstmusterprüfung ab?",
+          "answer": "Bei Brenner muss der Prüfbericht vor dem ersten Versand im Kundenportal hochgeladen sein. Für die Erstmusterprüfung messen wir 8 Teile aus der Serie.",
+          "minute": 0.95
+        },
+        {
+          "turn": 2,
+          "topic": "firstarticle",
+          "move": "confirm",
+          "why": "check the stated 8 Teile",
+          "question": "Sie sagten eben 8 Teile. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Für die Erstmusterprüfung messen wir 8 Teile aus der Serie.",
+          "minute": 1.55
+        },
+        {
+          "turn": 3,
+          "topic": "firstarticle",
+          "move": "failure",
+          "why": "firstarticle: still missing procedure, exception, rationale, contact",
+          "question": "Was geht bei Erstmusterprüfung typischerweise schief, und woran merken Sie das?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 2.05
+        },
+        {
+          "turn": 4,
+          "topic": "complaints",
+          "move": "open",
+          "why": "complaints: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Reklamationen ab?",
+          "answer": "Jede Reklamation bekommt innerhalb von 48 Stunden eine erste Antwort. Na ja, da gibt es verschiedene Meinungen im Team.",
+          "minute": 2.9
+        },
+        {
+          "turn": 5,
+          "topic": "complaints",
+          "move": "confirm",
+          "why": "check the stated 48 h",
+          "question": "Sie sagten eben 48 Stunden. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Ja, das passt so. Jede Reklamation bekommt innerhalb von 48 Stunden eine erste Antwort.",
+          "minute": 3.5
+        },
+        {
+          "turn": 6,
+          "topic": "complaints",
+          "move": "failure",
+          "why": "complaints: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was geht bei Reklamationen typischerweise schief, und woran merken Sie das?",
+          "answer": "Das lernt man halt mit der Zeit. Wenn Lumatec über Verzug klagt, liegt es meist an deren Lagerung im Sommer, das prüfen wir zuerst.",
+          "minute": 4.35
+        },
+        {
+          "turn": 7,
+          "topic": "complaints",
+          "move": "newcomer",
+          "why": "complaints: still missing procedure, rule, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Reklamationen sagen, das in keinem Handbuch steht?",
+          "answer": "Das war früher noch anders, aber egal. Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 5.1
+        },
+        {
+          "turn": 8,
+          "topic": "complaints",
+          "move": "who",
+          "why": "complaints: still missing procedure, rule, rationale, contact",
+          "question": "Wen rufen Sie bei Reklamationen an, wenn Sie nicht weiterkommen?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 5.6
+        },
+        {
+          "turn": 9,
+          "topic": "regrind",
+          "move": "open",
+          "why": "regrind: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Mahlgut und Ausschuss ab?",
+          "answer": "Das ist schon eine ganze Weile so bei uns. Bei Teilen für Brenner darf gar kein Mahlgut rein, das steht im Vertrag.",
+          "minute": 6.45
+        },
+        {
+          "turn": 10,
+          "topic": "regrind",
+          "move": "failure",
+          "why": "regrind: still missing procedure, threshold, exception, rationale, contact",
+          "question": "Was geht bei Mahlgut und Ausschuss typischerweise schief, und woran merken Sie das?",
+          "answer": "Mahlgut von gelben Teilen halten wir getrennt, sonst gibt es Farbschlieren.",
+          "minute": 7.05
+        },
+        {
+          "turn": 11,
+          "topic": "regrind",
+          "move": "numbers",
+          "why": "regrind: still missing procedure, threshold, rationale, contact",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Mahlgut und Ausschuss?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 7.55
+        },
+        {
+          "turn": 12,
+          "topic": "regrind",
+          "move": "who",
+          "why": "regrind: still missing procedure, threshold, rationale, contact",
+          "question": "Wen rufen Sie bei Mahlgut und Ausschuss an, wenn Sie nicht weiterkommen?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 8.05
+        },
+        {
+          "turn": 13,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv12-E6",
+      "expert": "E6",
+      "focus": [
+        "toolchange",
+        "colour"
+      ],
+      "minutes": 10.8,
+      "why": "most knowledge at risk: toolchange, colour (score 6.3)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "toolchange",
+          "move": "open",
+          "why": "toolchange: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugwechsel ab?",
+          "answer": "Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. Beim Werkzeugwechsel blasen wir zuerst die Kühlwasserleitungen aus.",
+          "minute": 0.85
+        },
+        {
+          "turn": 2,
+          "topic": "toolchange",
+          "move": "failure",
+          "why": "toolchange: still missing threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Werkzeugwechsel typischerweise schief, und woran merken Sie das?",
+          "answer": "Bei Fragen zu den Heißkanälen ruft man direkt Herrn Bauer beim Werkzeugbauer an, nicht die Hotline. Das ist schon eine ganze Weile so bei uns.",
+          "minute": 1.7
+        },
+        {
+          "turn": 3,
+          "topic": "toolchange",
+          "move": "example",
+          "why": "toolchange: still missing threshold, rule, exception, rationale",
+          "question": "Können Sie mir ein konkretes Beispiel geben, wann es bei Werkzeugwechsel zuletzt schwierig war?",
+          "answer": "Das ist schon eine ganze Weile so bei uns. Wir wechseln Werkzeuge lieber zum Schichtende, damit die Qualität nicht mitten in der Charge neu freigeben muss.",
+          "minute": 2.55
+        },
+        {
+          "turn": 4,
+          "topic": "toolchange",
+          "move": "newcomer",
+          "why": "toolchange: still missing threshold, rule, exception",
+          "question": "Was würden Sie einem neuen Kollegen zu Werkzeugwechsel sagen, das in keinem Handbuch steht?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 3.05
+        },
+        {
+          "turn": 5,
+          "topic": "toolchange",
+          "move": "numbers",
+          "why": "toolchange: still missing threshold, rule, exception",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Werkzeugwechsel?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 3.55
+        },
+        {
+          "turn": 6,
+          "topic": "colour",
+          "move": "open",
+          "why": "colour: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Farbwechsel ab?",
+          "answer": "Farben immer von hell nach dunkel planen, nie umgekehrt. Hell nach dunkel, weil dunkle Reste im hellen Teil sofort Ausschuss sind.",
+          "minute": 4.5
+        },
+        {
+          "turn": 7,
+          "topic": "colour",
+          "move": "failure",
+          "why": "colour: still missing procedure, threshold, exception, contact",
+          "question": "Was geht bei Farbwechsel typischerweise schief, und woran merken Sie das?",
+          "answer": "Das ist schon eine ganze Weile so bei uns. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 5.25
+        },
+        {
+          "turn": 8,
+          "topic": "colour",
+          "move": "numbers",
+          "why": "colour: still missing procedure, threshold, exception, contact",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Farbwechsel?",
+          "answer": "Da müsste ich eigentlich mal nachschauen. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 6
+        },
+        {
+          "turn": 9,
+          "topic": "handover",
+          "move": "open",
+          "why": "handover: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Schichtübergabe ab?",
+          "answer": "Bei der Schichtübergabe laufen wir jede Maschine einmal gemeinsam ab. Ehrlich gesagt mache ich das inzwischen ohne nachzudenken.",
+          "minute": 6.85
+        },
+        {
+          "turn": 10,
+          "topic": "handover",
+          "move": "failure",
+          "why": "handover: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Schichtübergabe typischerweise schief, und woran merken Sie das?",
+          "answer": "Wenn die Nachtschicht nur zwei Leute hat, lassen wir die SGM elf nicht laufen, das schafft man nicht.",
+          "minute": 7.45
+        },
+        {
+          "turn": 11,
+          "topic": "handover",
+          "move": "numbers",
+          "why": "handover: still missing procedure, threshold, rule, rationale, contact",
+          "question": "Auf welche Werte und Einstellungen achten Sie bei Schichtübergabe?",
+          "answer": "Ehrlich gesagt mache ich das inzwischen ohne nachzudenken. Das läuft eigentlich ganz normal.",
+          "minute": 8.2
+        },
+        {
+          "turn": 12,
+          "topic": "handover",
+          "move": "newcomer",
+          "why": "handover: still missing procedure, threshold, rule, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Schichtübergabe sagen, das in keinem Handbuch steht?",
+          "answer": "Offene Störungen kommen ins Übergabebuch, nicht nur mündlich. Na ja, da gibt es verschiedene Meinungen im Team.",
+          "minute": 9.05
+        },
+        {
+          "turn": 13,
+          "topic": "handover",
+          "move": "who",
+          "why": "handover: still missing procedure, threshold, rationale, contact",
+          "question": "Wen rufen Sie bei Schichtübergabe an, wenn Sie nicht weiterkommen?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 9.55
+        },
+        {
+          "turn": 14,
+          "topic": "handover",
+          "move": "why",
+          "why": "handover: still missing procedure, threshold, rationale, contact",
+          "question": "Warum machen Sie das bei Schichtübergabe genau so?",
+          "answer": "Das läuft eigentlich ganz normal. Ehrlich gesagt mache ich das inzwischen ohne nachzudenken.",
+          "minute": 10.3
+        },
+        {
+          "turn": 15,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv13-E5",
+      "expert": "E5",
+      "focus": [
+        "complaints",
+        "substitutes"
+      ],
+      "minutes": 5,
+      "why": "most knowledge at risk: complaints, substitutes (score 4.8)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "complaints",
+          "move": "open",
+          "why": "complaints: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Reklamationen ab?",
+          "answer": "Das läuft eigentlich ganz normal. Das lernt man halt mit der Zeit.",
+          "minute": 0.75
+        },
+        {
+          "turn": 2,
+          "topic": "complaints",
+          "move": "failure",
+          "why": "complaints: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Reklamationen typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein. Das lernt man halt mit der Zeit.",
+          "minute": 1.5
+        },
+        {
+          "turn": 3,
+          "topic": "substitutes",
+          "move": "open",
+          "why": "substitutes: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Materialersatz im Einkauf ab?",
+          "answer": "Da müsste ich eigentlich mal nachschauen. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 2.25
+        },
+        {
+          "turn": 4,
+          "topic": "substitutes",
+          "move": "failure",
+          "why": "substitutes: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Materialersatz im Einkauf typischerweise schief, und woran merken Sie das?",
+          "answer": "Das ist schon eine ganze Weile so bei uns. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 3
+        },
+        {
+          "turn": 5,
+          "topic": "drying",
+          "move": "open",
+          "why": "drying: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Materialtrocknung ab?",
+          "answer": "Das hat sich über die Jahre so eingespielt. Das läuft eigentlich ganz normal.",
+          "minute": 3.75
+        },
+        {
+          "turn": 6,
+          "topic": "drying",
+          "move": "failure",
+          "why": "drying: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Materialtrocknung typischerweise schief, und woran merken Sie das?",
+          "answer": "Das war früher noch anders, aber egal. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 4.5
+        },
+        {
+          "turn": 7,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv14-E7",
+      "expert": "E7",
+      "focus": [
+        "colour",
+        "toolchange"
+      ],
+      "minutes": 6.6,
+      "why": "most knowledge at risk: colour, toolchange (score 4.8)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "colour",
+          "move": "open",
+          "why": "colour: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Farbwechsel ab?",
+          "answer": "Das läuft eigentlich ganz normal. Das war früher noch anders, aber egal.",
+          "minute": 0.75
+        },
+        {
+          "turn": 2,
+          "topic": "colour",
+          "move": "failure",
+          "why": "colour: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Farbwechsel typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein. Das hat sich über die Jahre so eingespielt.",
+          "minute": 1.5
+        },
+        {
+          "turn": 3,
+          "topic": "toolchange",
+          "move": "open",
+          "why": "toolchange: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugwechsel ab?",
+          "answer": "Beim Werkzeugwechsel blasen wir zuerst die Kühlwasserleitungen aus.",
+          "minute": 2.1
+        },
+        {
+          "turn": 4,
+          "topic": "toolchange",
+          "move": "failure",
+          "why": "toolchange: still missing threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Werkzeugwechsel typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 2.6
+        },
+        {
+          "turn": 5,
+          "topic": "toolchange",
+          "move": "newcomer",
+          "why": "toolchange: still missing threshold, rule, exception, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Werkzeugwechsel sagen, das in keinem Handbuch steht?",
+          "answer": "Das läuft eigentlich ganz normal. Ehrlich gesagt mache ich das inzwischen ohne nachzudenken.",
+          "minute": 3.35
+        },
+        {
+          "turn": 6,
+          "topic": "robot",
+          "move": "open",
+          "why": "robot: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Entnahmeroboter ab?",
+          "answer": "Da müsste ich eigentlich mal nachschauen. Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 4.1
+        },
+        {
+          "turn": 7,
+          "topic": "robot",
+          "move": "failure",
+          "why": "robot: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Entnahmeroboter typischerweise schief, und woran merken Sie das?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes. Das lernt man halt mit der Zeit.",
+          "minute": 4.85
+        },
+        {
+          "turn": 8,
+          "topic": "mouldtemp",
+          "move": "open",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugtemperierung ab?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 5.35
+        },
+        {
+          "turn": 9,
+          "topic": "mouldtemp",
+          "move": "failure",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Werkzeugtemperierung typischerweise schief, und woran merken Sie das?",
+          "answer": "Das läuft eigentlich ganz normal. Das war früher noch anders, aber egal.",
+          "minute": 6.1
+        },
+        {
+          "turn": 10,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv15-E3",
+      "expert": "E3",
+      "focus": [
+        "regrind",
+        "mouldtemp"
+      ],
+      "minutes": 8.3,
+      "why": "most knowledge at risk: regrind, mouldtemp (score 3.8)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "regrind",
+          "move": "open",
+          "why": "regrind: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Mahlgut und Ausschuss ab?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein. Das lernt man halt mit der Zeit.",
+          "minute": 0.75
+        },
+        {
+          "turn": 2,
+          "topic": "regrind",
+          "move": "failure",
+          "why": "regrind: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Mahlgut und Ausschuss typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 1.25
+        },
+        {
+          "turn": 3,
+          "topic": "mouldtemp",
+          "move": "open",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Werkzeugtemperierung ab?",
+          "answer": "Wir fahren das WZ-5502 so warm, weil sonst die Bindenähte reißen. Ehrlich gesagt mache ich das inzwischen ohne nachzudenken.",
+          "minute": 2.1
+        },
+        {
+          "turn": 4,
+          "topic": "mouldtemp",
+          "move": "failure",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, contact",
+          "question": "Was geht bei Werkzeugtemperierung typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 2.6
+        },
+        {
+          "turn": 5,
+          "topic": "mouldtemp",
+          "move": "example",
+          "why": "mouldtemp: still missing procedure, threshold, rule, exception, contact",
+          "question": "Können Sie mir ein konkretes Beispiel geben, wann es bei Werkzeugtemperierung zuletzt schwierig war?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein. Das lernt man halt mit der Zeit.",
+          "minute": 3.35
+        },
+        {
+          "turn": 6,
+          "topic": "drying",
+          "move": "open",
+          "why": "drying: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Materialtrocknung ab?",
+          "answer": "Ein frischer Sack PA sechs GF dreißig braucht dagegen nur 3 Stunden. Das war früher noch anders, aber egal.",
+          "minute": 4.2
+        },
+        {
+          "turn": 7,
+          "topic": "drying",
+          "move": "confirm",
+          "why": "check the stated 3 h",
+          "question": "Sie sagten eben 3 Stunden bei PA6-GF30. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+          "answer": "Das war früher noch anders, aber egal. Ja, das passt so. Ein frischer Sack PA6-GF30 braucht dagegen nur 3 Stunden.",
+          "minute": 5.05
+        },
+        {
+          "turn": 8,
+          "topic": "drying",
+          "move": "failure",
+          "why": "drying: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was geht bei Materialtrocknung typischerweise schief, und woran merken Sie das?",
+          "answer": "Da müsste ich eigentlich mal nachschauen. Das läuft eigentlich ganz normal.",
+          "minute": 5.8
+        },
+        {
+          "turn": 9,
+          "topic": "drying",
+          "move": "newcomer",
+          "why": "drying: still missing procedure, rule, exception, rationale, contact",
+          "question": "Was würden Sie einem neuen Kollegen zu Materialtrocknung sagen, das in keinem Handbuch steht?",
+          "answer": "Hm, da wüsste ich jetzt nichts Besonderes. Na ja, da gibt es verschiedene Meinungen im Team.",
+          "minute": 6.55
+        },
+        {
+          "turn": 10,
+          "topic": "startup",
+          "move": "open",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Anfahren der Maschinen ab?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 7.05
+        },
+        {
+          "turn": 11,
+          "topic": "startup",
+          "move": "failure",
+          "why": "startup: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Anfahren der Maschinen typischerweise schief, und woran merken Sie das?",
+          "answer": "Da müsste ich eigentlich mal nachschauen. Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 7.8
+        },
+        {
+          "turn": 12,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    },
+    {
+      "interviewId": "demo-d-iv16-E5",
+      "expert": "E5",
+      "focus": [
+        "complaints",
+        "substitutes"
+      ],
+      "minutes": 4.5,
+      "why": "most knowledge at risk: complaints, substitutes (score 3.6)",
+      "turns": [
+        {
+          "turn": 1,
+          "topic": "complaints",
+          "move": "open",
+          "why": "complaints: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Reklamationen ab?",
+          "answer": "Das ist schon eine ganze Weile so bei uns. Hm, da wüsste ich jetzt nichts Besonderes.",
+          "minute": 0.75
+        },
+        {
+          "turn": 2,
+          "topic": "complaints",
+          "move": "failure",
+          "why": "complaints: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Reklamationen typischerweise schief, und woran merken Sie das?",
+          "answer": "Das war früher noch anders, aber egal. Das läuft eigentlich ganz normal.",
+          "minute": 1.5
+        },
+        {
+          "turn": 3,
+          "topic": "substitutes",
+          "move": "open",
+          "why": "substitutes: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Materialersatz im Einkauf ab?",
+          "answer": "Das ist schon eine ganze Weile so bei uns. Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 2.25
+        },
+        {
+          "turn": 4,
+          "topic": "substitutes",
+          "move": "failure",
+          "why": "substitutes: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Materialersatz im Einkauf typischerweise schief, und woran merken Sie das?",
+          "answer": "Das läuft eigentlich ganz normal.",
+          "minute": 2.75
+        },
+        {
+          "turn": 5,
+          "topic": "drying",
+          "move": "open",
+          "why": "drying: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Wie läuft bei Ihnen das Thema Materialtrocknung ab?",
+          "answer": "Das hat sich über die Jahre so eingespielt. Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 3.5
+        },
+        {
+          "turn": 6,
+          "topic": "drying",
+          "move": "failure",
+          "why": "drying: still missing procedure, threshold, rule, exception, rationale, contact",
+          "question": "Was geht bei Materialtrocknung typischerweise schief, und woran merken Sie das?",
+          "answer": "Mehr fällt mir dazu gerade nicht ein.",
+          "minute": 4
+        },
+        {
+          "turn": 7,
+          "topic": "",
+          "move": "",
+          "why": "",
+          "question": "",
+          "answer": "Gern, das war es von meiner Seite.",
+          "minute": 0
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "demo-d-iv01-E1#1.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv01-E1",
+      "turn": 1,
+      "minute": 1.2,
+      "topic": "startup",
+      "type": "rule",
+      "statement": "Glossy spots on the first parts mean the mould is still too cold; wait.",
+      "quote": "Wenn die ersten Teile glänzende Stellen haben, ist das Werkzeug noch zu kalt, dann warten wir.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv01-E1#1.1",
+      "expert": "E1",
+      "interviewId": "demo-d-iv01-E1",
+      "turn": 1,
+      "minute": 1.2,
+      "topic": "startup",
+      "type": "threshold",
+      "statement": "The SGM-03 barrel needs 50 min to heat up.",
+      "quote": "Der Zylinder der SGM-03 braucht beim Anfahren 50 Minuten zum Aufheizen.",
+      "entities": [
+        "SGM-03"
+      ],
+      "value": 50,
+      "unit": "min",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv01-E1#3.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv01-E1",
+      "turn": 3,
+      "minute": 2.65,
+      "topic": "startup",
+      "type": "exception",
+      "statement": "After a weekend the SGM-07 nozzle needs ten minutes more preheating.",
+      "quote": "Die SGM 7 macht nach dem Wochenende Ärger mit der Düse, die muss man zehn Minuten länger vorheizen.",
+      "entities": [
+        "SGM-07"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv01-E1#6.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv01-E1",
+      "turn": 6,
+      "minute": 4.25,
+      "topic": "toolchange",
+      "type": "rule",
+      "statement": "WZ-2290 screws are tightened with a torque wrench only; the threads are delicate.",
+      "quote": "Die Schrauben am Werkzeug 2290 nur mit dem Drehmomentschlüssel anziehen, die Gewinde sind empfindlich.",
+      "entities": [
+        "WZ-2290"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv01-E1#7.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv01-E1",
+      "turn": 7,
+      "minute": 4.85,
+      "topic": "toolchange",
+      "type": "exception",
+      "statement": "WZ-4711 has a slide that jams when fitted cold; preheat it to 60 °C.",
+      "quote": "Das WZ 47 11 hat einen Schieber, der klemmt, wenn man es kalt einbaut, das wärmen wir auf sechzig Grad vor.",
+      "entities": [
+        "WZ-4711"
+      ],
+      "value": 60,
+      "unit": "°C",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv01-E1#11.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv01-E1",
+      "turn": 11,
+      "minute": 7.3,
+      "topic": "colour",
+      "type": "threshold",
+      "statement": "A colour change is purged with 5 kg of purging compound.",
+      "quote": "Beim Farbwechsel spülen wir mit 5 Kilo Reinigungsgranulat.",
+      "entities": [],
+      "value": 5,
+      "unit": "kg",
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv01-E1#13.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv01-E1",
+      "turn": 13,
+      "minute": 9,
+      "topic": "colour",
+      "type": "exception",
+      "statement": "Black to white on SGM-03: purging is never enough, the screw is pulled.",
+      "quote": "Von Schwarz auf Weiß an der SGM 3 reicht Spülen nie, da bauen wir die Schnecke aus.",
+      "entities": [
+        "SGM-03"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv01-E1#16.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv01-E1",
+      "turn": 16,
+      "minute": 10.85,
+      "topic": "regrind",
+      "type": "rationale",
+      "statement": "More regrind ruins impact strength, which only shows at the customer.",
+      "quote": "Mehr Mahlgut macht die Schlagzähigkeit kaputt, das merkt man erst beim Kunden.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv01-E1#19.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv01-E1",
+      "turn": 19,
+      "minute": 13.05,
+      "topic": "handover",
+      "type": "exception",
+      "statement": "With only two people on night shift SGM-11 is not run.",
+      "quote": "Wenn die Nachtschicht nur zwei Leute hat, lassen wir die SGM elf nicht laufen, das schafft man nicht.",
+      "entities": [
+        "SGM-11"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv01-E1#19.1",
+      "expert": "E1",
+      "interviewId": "demo-d-iv01-E1",
+      "turn": 19,
+      "minute": 13.05,
+      "topic": "handover",
+      "type": "threshold",
+      "statement": "Handover takes 15 min.",
+      "quote": "Die Übergabe dauert bei uns fünfzehn Minuten.",
+      "entities": [],
+      "value": 15,
+      "unit": "min",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv01-E1#21.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv01-E1",
+      "turn": 21,
+      "minute": 14.25,
+      "topic": "handover",
+      "type": "rule",
+      "statement": "Open faults go into the handover book, not only by word of mouth.",
+      "quote": "Offene Störungen kommen ins Übergabebuch, nicht nur mündlich.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv02-E2#1.0",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 1,
+      "minute": 0.6,
+      "topic": "hydraulics",
+      "type": "threshold",
+      "statement": "Above 55 °C oil temperature the cooler is checked at once.",
+      "quote": "Bei einer Öltemperatur über 55 Grad prüfen wir sofort den Kühler.",
+      "entities": [],
+      "value": 55,
+      "unit": "°C",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv02-E2#3.0",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 3,
+      "minute": 2.4,
+      "topic": "hydraulics",
+      "type": "contact",
+      "statement": "Spare parts for the old hydraulic pumps are only available from Pumpen Reuter in Kassel.",
+      "quote": "Ersatzteile für die alten Hydraulikpumpen hat nur noch die Firma Pumpen Reuter in Kassel.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv02-E2#3.1",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 3,
+      "minute": 2.4,
+      "topic": "hydraulics",
+      "type": "exception",
+      "statement": "When SGM-07 jerks on closing it is almost always the proportional valve, not the pump.",
+      "quote": "Wenn die SGM sieben beim Schließen ruckt, ist es fast immer das Proportionalventil, nicht die Pumpe.",
+      "entities": [
+        "SGM-07"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv02-E2#4.0",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 4,
+      "minute": 3.6,
+      "topic": "hydraulics",
+      "type": "threshold",
+      "statement": "Hydraulic oil is changed every 2000 operating hours.",
+      "quote": "Das Hydrauliköl wechseln wir alle 2000 Betriebsstunden.",
+      "entities": [],
+      "value": 2000,
+      "unit": "h",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv02-E2#4.1",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 4,
+      "minute": 3.6,
+      "topic": "hydraulics",
+      "type": "rule",
+      "statement": "Filters are replaced with original parts; cheap ones clog within two weeks.",
+      "quote": "Filter tauschen wir immer gegen das Original vom Hersteller, die billigen verstopfen nach zwei Wochen.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv02-E2#8.0",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 8,
+      "minute": 6.15,
+      "topic": "mouldtemp",
+      "type": "exception",
+      "statement": "The SGM-11 temperature controller reads five degrees low; add them mentally.",
+      "quote": "Das Temperiergerät an der SGM elf zeigt fünf Grad zu wenig an, das muss man im Kopf dazurechnen.",
+      "entities": [
+        "SGM-11"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv02-E2#9.0",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 9,
+      "minute": 6.75,
+      "topic": "mouldtemp",
+      "type": "procedure",
+      "statement": "WZ-5502 runs at 75 °C mould temperature.",
+      "quote": "Das WZ-5502 läuft mit 75 Grad Werkzeugtemperatur.",
+      "entities": [
+        "WZ-5502"
+      ],
+      "value": 75,
+      "unit": "°C",
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv02-E2#10.0",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 10,
+      "minute": 7.35,
+      "topic": "mouldtemp",
+      "type": "threshold",
+      "statement": "WZ-5502 runs at 70 °C mould temperature.",
+      "quote": "Das WZ 55 02 läuft mit siebzig Grad Werkzeugtemperatur.",
+      "entities": [
+        "WZ-5502"
+      ],
+      "value": 70,
+      "unit": "°C",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv02-E2#13.0",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 13,
+      "minute": 9.55,
+      "topic": "robot",
+      "type": "threshold",
+      "statement": "Gripper pressure for WZ-4711 lids is 3 bar.",
+      "quote": "Der Greiferdruck für die Deckel aus dem WZ 47 11 liegt bei 3 bar.",
+      "entities": [
+        "WZ-4711"
+      ],
+      "value": 3,
+      "unit": "bar",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv02-E2#13.1",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 13,
+      "minute": 9.55,
+      "topic": "robot",
+      "type": "rationale",
+      "statement": "Teaching is done slowly because a crash into the mould costs weeks.",
+      "quote": "Wir teachen langsam, weil ein Crash mit dem Werkzeug Wochen kostet.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv02-E2#14.1",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 14,
+      "minute": 10.5,
+      "topic": "robot",
+      "type": "rule",
+      "statement": "RB-2 suction cups are cleaned every Friday or thin parts drop.",
+      "quote": "Die Saugnäpfe vom RB zwei jeden Freitag reinigen, sonst fallen die dünnen Teile.",
+      "entities": [
+        "RB-2"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv02-E2#17.0",
+      "expert": "E2",
+      "interviewId": "demo-d-iv02-E2",
+      "turn": 17,
+      "minute": 12.35,
+      "topic": "startup",
+      "type": "threshold",
+      "statement": "The SGM-03 barrel needs 50 min to heat up.",
+      "quote": "Der Zylinder der SGM-03 braucht beim Anfahren 50 Minuten zum Aufheizen.",
+      "entities": [
+        "SGM-03"
+      ],
+      "value": 50,
+      "unit": "min",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv03-E5#1.0",
+      "expert": "E5",
+      "interviewId": "demo-d-iv03-E5",
+      "turn": 1,
+      "minute": 0.6,
+      "topic": "drying",
+      "type": "procedure",
+      "statement": "The dryer is switched on one shift ahead.",
+      "quote": "Der Trockner wird immer eine Schicht vorher eingeschaltet.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv03-E5#3.0",
+      "expert": "E5",
+      "interviewId": "demo-d-iv03-E5",
+      "turn": 3,
+      "minute": 2.9,
+      "topic": "drying",
+      "type": "exception",
+      "statement": "Above 65 % outdoor humidity, drying is extended by one hour.",
+      "quote": "Wenn es draußen schwül ist, über 65 Prozent Luftfeuchte, trockne ich eine Stunde länger.",
+      "entities": [],
+      "value": 65,
+      "unit": "%",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv03-E5#3.2",
+      "expert": "E5",
+      "interviewId": "demo-d-iv03-E5",
+      "turn": 3,
+      "minute": 2.9,
+      "topic": "drying",
+      "type": "rule",
+      "statement": "POM-C is not dried unless there is condensation in the bag.",
+      "quote": "POM C trocknen wir normalerweise gar nicht, nur wenn Kondenswasser im Sack ist.",
+      "entities": [
+        "POM-C"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv03-E5#3.3",
+      "expert": "E5",
+      "interviewId": "demo-d-iv03-E5",
+      "turn": 3,
+      "minute": 2.9,
+      "topic": "drying",
+      "type": "threshold",
+      "statement": "PA6-GF30 from an opened bag is dried for 7 h at 80 °C.",
+      "quote": "PA sechs GF dreißig aus einem offenen Sack trocknen wir 7 Stunden bei achtzig Grad.",
+      "entities": [
+        "PA6-GF30"
+      ],
+      "value": 7,
+      "unit": "h",
+      "condition": "opened bag",
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv03-E5#4.1",
+      "expert": "E5",
+      "interviewId": "demo-d-iv03-E5",
+      "turn": 4,
+      "minute": 3.85,
+      "topic": "drying",
+      "type": "threshold",
+      "statement": "A fresh bag of PA6-GF30 needs only 2 h of drying.",
+      "quote": "Ein frischer Sack PA sechs GF dreißig braucht dagegen nur 2 Stunden.",
+      "entities": [
+        "PA6-GF30"
+      ],
+      "value": 2,
+      "unit": "h",
+      "condition": "fresh bag",
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv03-E5#7.0",
+      "expert": "E5",
+      "interviewId": "demo-d-iv03-E5",
+      "turn": 7,
+      "minute": 5.55,
+      "topic": "drying",
+      "type": "rationale",
+      "statement": "Polyamide is not dried longer than needed because it yellows.",
+      "quote": "Wir trocknen nicht länger als nötig, weil das Polyamid sonst vergilbt.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv03-E5#9.0",
+      "expert": "E5",
+      "interviewId": "demo-d-iv03-E5",
+      "turn": 9,
+      "minute": 7.15,
+      "topic": "substitutes",
+      "type": "exception",
+      "statement": "Rheinpolymer does not deliver in August (company holiday); order ahead in July.",
+      "quote": "Rheinpolymer liefert im August nicht, die haben Betriebsferien, also bestellen wir im Juli vor.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv03-E5#11.0",
+      "expert": "E5",
+      "interviewId": "demo-d-iv03-E5",
+      "turn": 11,
+      "minute": 8.85,
+      "topic": "substitutes",
+      "type": "rationale",
+      "statement": "PC is bought in bags only because octabins get damp here.",
+      "quote": "Polycarbonat kaufen wir nur als Sackware, weil die Oktabins bei uns feucht werden.",
+      "entities": [
+        "PC"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv03-E5#11.1",
+      "expert": "E5",
+      "interviewId": "demo-d-iv03-E5",
+      "turn": 11,
+      "minute": 8.85,
+      "topic": "substitutes",
+      "type": "rule",
+      "statement": "If PA6-GF30 is unavailable only Rheinpolymer material may substitute; only it is released at Brenner Automotive.",
+      "quote": "Wenn PA6-GF30 nicht lieferbar ist, darf nur das Material von Rheinpolymer als Ersatz, nur das ist bei Brenner freigegeben.",
+      "entities": [
+        "KD-1001",
+        "PA6-GF30"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv03-E5#13.0",
+      "expert": "E5",
+      "interviewId": "demo-d-iv03-E5",
+      "turn": 13,
+      "minute": 10.2,
+      "topic": "complaints",
+      "type": "threshold",
+      "statement": "Credit notes above EUR 1000 need management approval.",
+      "quote": "Gutschriften über 1000 Euro muss die Geschäftsführung freigeben.",
+      "entities": [],
+      "value": 1000,
+      "unit": "EUR",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv03-E5#15.0",
+      "expert": "E5",
+      "interviewId": "demo-d-iv03-E5",
+      "turn": 15,
+      "minute": 11.9,
+      "topic": "complaints",
+      "type": "exception",
+      "statement": "Lumatec warpage complaints usually come from their summer storage; check that first.",
+      "quote": "Wenn Lumatec über Verzug klagt, liegt es meist an deren Lagerung im Sommer, das prüfen wir zuerst.",
+      "entities": [
+        "KD-2040"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv04-E1#2.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv04-E1",
+      "turn": 2,
+      "minute": 1.35,
+      "topic": "regrind",
+      "type": "rule",
+      "statement": "Parts for Brenner Automotive may contain no regrind; it is in the contract.",
+      "quote": "Bei Teilen für Brenner darf gar kein Mahlgut rein, das steht im Vertrag.",
+      "entities": [
+        "KD-1001"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv04-E1#3.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv04-E1",
+      "turn": 3,
+      "minute": 2.2,
+      "topic": "regrind",
+      "type": "threshold",
+      "statement": "Up to 10 % regrind may be added to PP-T20.",
+      "quote": "Mahlgut dürfen wir beim PP T zwanzig bis zehn Prozent zumischen.",
+      "entities": [
+        "PP-T20"
+      ],
+      "value": 10,
+      "unit": "%",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv04-E1#7.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv04-E1",
+      "turn": 7,
+      "minute": 4.65,
+      "topic": "colour",
+      "type": "exception",
+      "statement": "Black specks on a Lumatec order came from a hopper not emptied; the hopper is now vacuumed.",
+      "quote": "Beim Auftrag für Lumatec hatten wir schwarze Punkte, weil der Trichter nicht leer war, seitdem saugen wir ihn aus.",
+      "entities": [
+        "KD-2040"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv04-E1#10.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv04-E1",
+      "turn": 10,
+      "minute": 7.1,
+      "topic": "startup",
+      "type": "rationale",
+      "statement": "The start order protects the seals in the mould.",
+      "quote": "Die Reihenfolge ist wichtig, weil sonst die Dichtungen im Werkzeug leiden.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv04-E1#10.1",
+      "expert": "E1",
+      "interviewId": "demo-d-iv04-E1",
+      "turn": 10,
+      "minute": 7.1,
+      "topic": "startup",
+      "type": "threshold",
+      "statement": "On start-up of SGM-07 the first 15 shots go to scrap.",
+      "quote": "Beim Anfahren der SGM sieben fahren wir erst 15 Schuss in den Ausschuss.",
+      "entities": [
+        "SGM-07"
+      ],
+      "value": 15,
+      "unit": "Schuss",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv05-E2#8.0",
+      "expert": "E2",
+      "interviewId": "demo-d-iv05-E2",
+      "turn": 8,
+      "minute": 5.1,
+      "topic": "robot",
+      "type": "exception",
+      "statement": "After a power cut RB-2 loses the zero point of axis three; it shows on the second part.",
+      "quote": "Der Robo zwei verliert nach einem Stromausfall den Nullpunkt der Achse drei, das sieht man erst beim zweiten Teil.",
+      "entities": [
+        "RB-2"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv06-E1#1.0",
+      "expert": "E1",
+      "interviewId": "demo-d-iv06-E1",
+      "turn": 1,
+      "minute": 0.6,
+      "topic": "toolchange",
+      "type": "threshold",
+      "statement": "A tool change on SGM-11 is planned at 35 min.",
+      "quote": "Für einen Werkzeugwechsel an der SGM elf planen wir 35 Minuten.",
+      "entities": [
+        "SGM-11"
+      ],
+      "value": 35,
+      "unit": "min",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv08-E3#1.0",
+      "expert": "E3",
+      "interviewId": "demo-d-iv08-E3",
+      "turn": 1,
+      "minute": 0.85,
+      "topic": "drying",
+      "type": "threshold",
+      "statement": "PA6-GF30 from an opened bag is dried for 6 h at 80 °C.",
+      "quote": "PA 6 GF 30 aus einem offenen Sack trocknen wir sechs Stunden bei achtzig Grad.",
+      "entities": [
+        "PA6-GF30"
+      ],
+      "value": 6,
+      "unit": "h",
+      "condition": "opened bag",
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv08-E3#3.0",
+      "expert": "E3",
+      "interviewId": "demo-d-iv08-E3",
+      "turn": 3,
+      "minute": 2.3,
+      "topic": "drying",
+      "type": "exception",
+      "statement": "Above 65 % outdoor humidity, drying is extended by one hour.",
+      "quote": "Wenn es draußen schwül ist, über 65 Prozent Luftfeuchte, trockne ich eine Stunde länger.",
+      "entities": [],
+      "value": 65,
+      "unit": "%",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv08-E3#6.0",
+      "expert": "E3",
+      "interviewId": "demo-d-iv08-E3",
+      "turn": 6,
+      "minute": 4.25,
+      "topic": "mouldtemp",
+      "type": "procedure",
+      "statement": "Temperature controllers are checked for water level every Monday.",
+      "quote": "Die Temperiergeräte prüfen wir jeden Montag auf den Wasserstand.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv08-E3#9.0",
+      "expert": "E3",
+      "interviewId": "demo-d-iv08-E3",
+      "turn": 9,
+      "minute": 6.7,
+      "topic": "startup",
+      "type": "rationale",
+      "statement": "The start order protects the seals in the mould.",
+      "quote": "Die Reihenfolge ist wichtig, weil sonst die Dichtungen im Werkzeug leiden.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv08-E3#9.1",
+      "expert": "E3",
+      "interviewId": "demo-d-iv08-E3",
+      "turn": 9,
+      "minute": 6.7,
+      "topic": "startup",
+      "type": "procedure",
+      "statement": "Start order: mould temperature control, then barrel heating, then hydraulics.",
+      "quote": "Erst die Werkzeugtemperierung an, dann die Zylinderheizung, dann die Hydraulik.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv08-E3#11.0",
+      "expert": "E3",
+      "interviewId": "demo-d-iv08-E3",
+      "turn": 11,
+      "minute": 7.8,
+      "topic": "startup",
+      "type": "rule",
+      "statement": "Glossy spots on the first parts mean the mould is still too cold; wait.",
+      "quote": "Wenn die ersten Teile glänzende Stellen haben, ist das Werkzeug noch zu kalt, dann warten wir.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv08-E3#15.0",
+      "expert": "E3",
+      "interviewId": "demo-d-iv08-E3",
+      "turn": 15,
+      "minute": 10.4,
+      "topic": "regrind",
+      "type": "threshold",
+      "statement": "Regrind from yellow parts is kept separate to avoid colour streaks.",
+      "quote": "Mahlgut von gelben Teilen halten wir getrennt, sonst gibt es Farbschlieren.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv09-E7#1.0",
+      "expert": "E7",
+      "interviewId": "demo-d-iv09-E7",
+      "turn": 1,
+      "minute": 1.55,
+      "topic": "mouldtemp",
+      "type": "contact",
+      "statement": "Temperature controllers are serviced by Kältetechnik Sommer; ask Ms Sommer.",
+      "quote": "Die Temperiergeräte wartet die Firma Kältetechnik Sommer, Frau Sommer kennt jede Macke.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv09-E7#1.1",
+      "expert": "E7",
+      "interviewId": "demo-d-iv09-E7",
+      "turn": 1,
+      "minute": 1.55,
+      "topic": "mouldtemp",
+      "type": "procedure",
+      "statement": "Temperature controllers are checked for water level every Monday.",
+      "quote": "Die Temperiergeräte prüfen wir jeden Montag auf den Wasserstand.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv09-E7#1.2",
+      "expert": "E7",
+      "interviewId": "demo-d-iv09-E7",
+      "turn": 1,
+      "minute": 1.55,
+      "topic": "mouldtemp",
+      "type": "threshold",
+      "statement": "WZ-5502 runs at 70 °C mould temperature.",
+      "quote": "Das Werkzeug 5502 läuft mit 70 Grad Werkzeugtemperatur.",
+      "entities": [
+        "WZ-5502"
+      ],
+      "value": 70,
+      "unit": "°C",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv09-E7#3.0",
+      "expert": "E7",
+      "interviewId": "demo-d-iv09-E7",
+      "turn": 3,
+      "minute": 3,
+      "topic": "mouldtemp",
+      "type": "exception",
+      "statement": "The SGM-11 temperature controller reads five degrees low; add them mentally.",
+      "quote": "Das Temperiergerät an der SGM-11 zeigt fünf Grad zu wenig an, das muss man im Kopf dazurechnen.",
+      "entities": [
+        "SGM-11"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv09-E7#8.0",
+      "expert": "E7",
+      "interviewId": "demo-d-iv09-E7",
+      "turn": 8,
+      "minute": 6.7,
+      "topic": "robot",
+      "type": "rule",
+      "statement": "RB-2 suction cups are cleaned every Friday or thin parts drop.",
+      "quote": "Die Saugnäpfe vom RB-2 jeden Freitag reinigen, sonst fallen die dünnen Teile.",
+      "entities": [
+        "RB-2"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv09-E7#8.1",
+      "expert": "E7",
+      "interviewId": "demo-d-iv09-E7",
+      "turn": 8,
+      "minute": 6.7,
+      "topic": "robot",
+      "type": "procedure",
+      "statement": "RB-2 is re-taught after every tool change.",
+      "quote": "Nach jedem Werkzeugwechsel wird der RB-2 neu geteacht.",
+      "entities": [
+        "RB-2"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv09-E7#9.0",
+      "expert": "E7",
+      "interviewId": "demo-d-iv09-E7",
+      "turn": 9,
+      "minute": 7.3,
+      "topic": "robot",
+      "type": "rationale",
+      "statement": "Teaching is done slowly because a crash into the mould costs weeks.",
+      "quote": "Wir teachen langsam, weil ein Crash mit dem Werkzeug Wochen kostet.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv09-E7#10.0",
+      "expert": "E7",
+      "interviewId": "demo-d-iv09-E7",
+      "turn": 10,
+      "minute": 7.9,
+      "topic": "robot",
+      "type": "threshold",
+      "statement": "Gripper pressure for WZ-4711 lids is 3 bar.",
+      "quote": "Der Greiferdruck für die Deckel aus dem Werkzeug 4711 liegt bei 3 bar.",
+      "entities": [
+        "WZ-4711"
+      ],
+      "value": 3,
+      "unit": "bar",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv10-E8#2.0",
+      "expert": "E8",
+      "interviewId": "demo-d-iv10-E8",
+      "turn": 2,
+      "minute": 1.35,
+      "topic": "firstarticle",
+      "type": "contact",
+      "statement": "Drawing questions for Brenner Automotive go to Mr Lindner, not their purchasing.",
+      "quote": "Bei Fragen zur Zeichnung von Brenner ist Herr Lindner der richtige Ansprechpartner, nicht deren Einkauf.",
+      "entities": [
+        "KD-1001"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv10-E8#3.1",
+      "expert": "E8",
+      "interviewId": "demo-d-iv10-E8",
+      "turn": 3,
+      "minute": 2.2,
+      "topic": "firstarticle",
+      "type": "threshold",
+      "statement": "First article inspection measures 8 production parts.",
+      "quote": "Für die Erstmusterprüfung messen wir 8 Teile aus der Serie.",
+      "entities": [],
+      "value": 8,
+      "unit": "Teile",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv10-E8#5.0",
+      "expert": "E8",
+      "interviewId": "demo-d-iv10-E8",
+      "turn": 5,
+      "minute": 4,
+      "topic": "firstarticle",
+      "type": "exception",
+      "statement": "For WZ-2290 parts the CMM measures rib height wrong; it is measured by hand.",
+      "quote": "Bei Teilen aus dem Werkzeug 2290 misst die Messmaschine die Rippenhöhe falsch, die messen wir von Hand.",
+      "entities": [
+        "WZ-2290"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv10-E8#5.1",
+      "expert": "E8",
+      "interviewId": "demo-d-iv10-E8",
+      "turn": 5,
+      "minute": 4,
+      "topic": "firstarticle",
+      "type": "rule",
+      "statement": "For Brenner Automotive the inspection report must be in their portal before the first shipment.",
+      "quote": "Bei Brenner muss der Prüfbericht vor dem ersten Versand im Kundenportal hochgeladen sein.",
+      "entities": [
+        "KD-1001"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv10-E8#7.0",
+      "expert": "E8",
+      "interviewId": "demo-d-iv10-E8",
+      "turn": 7,
+      "minute": 5.6,
+      "topic": "substitutes",
+      "type": "threshold",
+      "statement": "Minimum stock of PA6-GF30 is 7 t.",
+      "quote": "Der Mindestbestand für PA 6 GF 30 liegt bei 7 Tonnen.",
+      "entities": [
+        "PA6-GF30"
+      ],
+      "value": 7,
+      "unit": "t",
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv10-E8#10.0",
+      "expert": "E8",
+      "interviewId": "demo-d-iv10-E8",
+      "turn": 10,
+      "minute": 7.9,
+      "topic": "complaints",
+      "type": "exception",
+      "statement": "Flash on Brenner Automotive parts once came from a worn mould.",
+      "quote": "Bei Brenner Automotive hatten wir mal Grat an den Teilen, da war das Werkzeug verschlissen.",
+      "entities": [
+        "KD-1001"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv10-E8#10.1",
+      "expert": "E8",
+      "interviewId": "demo-d-iv10-E8",
+      "turn": 10,
+      "minute": 7.9,
+      "topic": "complaints",
+      "type": "threshold",
+      "statement": "Every complaint gets a first reply within 48 h.",
+      "quote": "Jede Reklamation bekommt innerhalb von 48 Stunden eine erste Antwort.",
+      "entities": [],
+      "value": 48,
+      "unit": "h",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv10-E8#12.0",
+      "expert": "E8",
+      "interviewId": "demo-d-iv10-E8",
+      "turn": 12,
+      "minute": 9.6,
+      "topic": "complaints",
+      "type": "rule",
+      "statement": "Hausgeräte Nord always wants an 8D report, even for small issues.",
+      "quote": "Hausgeräte Nord will immer einen 8D-Bericht, auch bei Kleinigkeiten.",
+      "entities": [
+        "KD-3307"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv11-E4#1.0",
+      "expert": "E4",
+      "interviewId": "demo-d-iv11-E4",
+      "turn": 1,
+      "minute": 0.95,
+      "topic": "firstarticle",
+      "type": "rule",
+      "statement": "For Brenner Automotive the inspection report must be in their portal before the first shipment.",
+      "quote": "Bei Brenner muss der Prüfbericht vor dem ersten Versand im Kundenportal hochgeladen sein.",
+      "entities": [
+        "KD-1001"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv11-E4#1.1",
+      "expert": "E4",
+      "interviewId": "demo-d-iv11-E4",
+      "turn": 1,
+      "minute": 0.95,
+      "topic": "firstarticle",
+      "type": "threshold",
+      "statement": "First article inspection measures 8 production parts.",
+      "quote": "Für die Erstmusterprüfung messen wir 8 Teile aus der Serie.",
+      "entities": [],
+      "value": 8,
+      "unit": "Teile",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv11-E4#4.0",
+      "expert": "E4",
+      "interviewId": "demo-d-iv11-E4",
+      "turn": 4,
+      "minute": 2.9,
+      "topic": "complaints",
+      "type": "threshold",
+      "statement": "Every complaint gets a first reply within 48 h.",
+      "quote": "Jede Reklamation bekommt innerhalb von 48 Stunden eine erste Antwort.",
+      "entities": [],
+      "value": 48,
+      "unit": "h",
+      "condition": null,
+      "confirmed": true
+    },
+    {
+      "id": "demo-d-iv11-E4#6.0",
+      "expert": "E4",
+      "interviewId": "demo-d-iv11-E4",
+      "turn": 6,
+      "minute": 4.35,
+      "topic": "complaints",
+      "type": "exception",
+      "statement": "Lumatec warpage complaints usually come from their summer storage; check that first.",
+      "quote": "Wenn Lumatec über Verzug klagt, liegt es meist an deren Lagerung im Sommer, das prüfen wir zuerst.",
+      "entities": [
+        "KD-2040"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv11-E4#9.1",
+      "expert": "E4",
+      "interviewId": "demo-d-iv11-E4",
+      "turn": 9,
+      "minute": 6.45,
+      "topic": "regrind",
+      "type": "rule",
+      "statement": "Parts for Brenner Automotive may contain no regrind; it is in the contract.",
+      "quote": "Bei Teilen für Brenner darf gar kein Mahlgut rein, das steht im Vertrag.",
+      "entities": [
+        "KD-1001"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv11-E4#10.0",
+      "expert": "E4",
+      "interviewId": "demo-d-iv11-E4",
+      "turn": 10,
+      "minute": 7.05,
+      "topic": "regrind",
+      "type": "exception",
+      "statement": "Regrind from yellow parts is kept separate to avoid colour streaks.",
+      "quote": "Mahlgut von gelben Teilen halten wir getrennt, sonst gibt es Farbschlieren.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv12-E6#1.0",
+      "expert": "E6",
+      "interviewId": "demo-d-iv12-E6",
+      "turn": 1,
+      "minute": 0.85,
+      "topic": "toolchange",
+      "type": "procedure",
+      "statement": "At a tool change the cooling lines are blown out first.",
+      "quote": "Beim Werkzeugwechsel blasen wir zuerst die Kühlwasserleitungen aus.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv12-E6#2.0",
+      "expert": "E6",
+      "interviewId": "demo-d-iv12-E6",
+      "turn": 2,
+      "minute": 1.7,
+      "topic": "toolchange",
+      "type": "contact",
+      "statement": "For hot-runner questions call Mr Bauer at the toolmaker directly, not the hotline.",
+      "quote": "Bei Fragen zu den Heißkanälen ruft man direkt Herrn Bauer beim Werkzeugbauer an, nicht die Hotline.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv12-E6#3.0",
+      "expert": "E6",
+      "interviewId": "demo-d-iv12-E6",
+      "turn": 3,
+      "minute": 2.55,
+      "topic": "toolchange",
+      "type": "rationale",
+      "statement": "Tools are changed at shift end so quality does not have to re-release mid-batch.",
+      "quote": "Wir wechseln Werkzeuge lieber zum Schichtende, damit die Qualität nicht mitten in der Charge neu freigeben muss.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv12-E6#6.0",
+      "expert": "E6",
+      "interviewId": "demo-d-iv12-E6",
+      "turn": 6,
+      "minute": 4.5,
+      "topic": "colour",
+      "type": "rule",
+      "statement": "Colours are planned from light to dark, never the reverse.",
+      "quote": "Farben immer von hell nach dunkel planen, nie umgekehrt.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv12-E6#6.1",
+      "expert": "E6",
+      "interviewId": "demo-d-iv12-E6",
+      "turn": 6,
+      "minute": 4.5,
+      "topic": "colour",
+      "type": "rationale",
+      "statement": "Light to dark because dark residue in a light part is scrap.",
+      "quote": "Hell nach dunkel, weil dunkle Reste im hellen Teil sofort Ausschuss sind.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv12-E6#10.0",
+      "expert": "E6",
+      "interviewId": "demo-d-iv12-E6",
+      "turn": 10,
+      "minute": 7.45,
+      "topic": "handover",
+      "type": "exception",
+      "statement": "With only two people on night shift SGM-11 is not run.",
+      "quote": "Wenn die Nachtschicht nur zwei Leute hat, lassen wir die SGM elf nicht laufen, das schafft man nicht.",
+      "entities": [
+        "SGM-11"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv12-E6#12.0",
+      "expert": "E6",
+      "interviewId": "demo-d-iv12-E6",
+      "turn": 12,
+      "minute": 9.05,
+      "topic": "handover",
+      "type": "rule",
+      "statement": "Open faults go into the handover book, not only by word of mouth.",
+      "quote": "Offene Störungen kommen ins Übergabebuch, nicht nur mündlich.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv14-E7#3.0",
+      "expert": "E7",
+      "interviewId": "demo-d-iv14-E7",
+      "turn": 3,
+      "minute": 2.1,
+      "topic": "toolchange",
+      "type": "procedure",
+      "statement": "At a tool change the cooling lines are blown out first.",
+      "quote": "Beim Werkzeugwechsel blasen wir zuerst die Kühlwasserleitungen aus.",
+      "entities": [],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv15-E3#3.0",
+      "expert": "E3",
+      "interviewId": "demo-d-iv15-E3",
+      "turn": 3,
+      "minute": 2.1,
+      "topic": "mouldtemp",
+      "type": "rationale",
+      "statement": "WZ-5502 runs warm because weld lines crack otherwise.",
+      "quote": "Wir fahren das WZ-5502 so warm, weil sonst die Bindenähte reißen.",
+      "entities": [
+        "WZ-5502"
+      ],
+      "value": null,
+      "unit": null,
+      "condition": null,
+      "confirmed": false
+    },
+    {
+      "id": "demo-d-iv15-E3#6.0",
+      "expert": "E3",
+      "interviewId": "demo-d-iv15-E3",
+      "turn": 6,
+      "minute": 4.2,
+      "topic": "drying",
+      "type": "threshold",
+      "statement": "A fresh bag of PA6-GF30 needs only 3 h of drying.",
+      "quote": "Ein frischer Sack PA sechs GF dreißig braucht dagegen nur 3 Stunden.",
+      "entities": [
+        "PA6-GF30"
+      ],
+      "value": 3,
+      "unit": "h",
+      "condition": "fresh bag",
+      "confirmed": true
+    }
+  ],
+  "questions": [
+    {
+      "question": "Worauf muss man beim Einbau von WZ-4711 achten?",
+      "abstained": false,
+      "answer": "Werner Kraus: Das WZ 47 11 hat einen Schieber, der klemmt, wenn man es kalt einbaut, das wärmen wir auf sechzig Grad vor.",
+      "cites": [
+        "demo-d-iv01-E1#7.0"
+      ],
+      "warnings": []
+    },
+    {
+      "question": "Wie schnell beantworten wir eine Reklamation?",
+      "abstained": false,
+      "answer": "Ingrid Falk: Jede Reklamation bekommt innerhalb von 48 Stunden eine erste Antwort. Petra Neumann: Jede Reklamation bekommt innerhalb von 48 Stunden eine erste Antwort.",
+      "cites": [
+        "demo-d-iv10-E8#10.1",
+        "demo-d-iv11-E4#4.0"
+      ],
+      "warnings": []
+    },
+    {
+      "question": "Läuft die SGM-11 auch, wenn nachts nur zwei Leute da sind?",
+      "abstained": false,
+      "answer": "Werner Kraus: Wenn die Nachtschicht nur zwei Leute hat, lassen wir die SGM elf nicht laufen, das schafft man nicht. Svenja Roth: Wenn die Nachtschicht nur zwei Leute hat, lassen wir die SGM elf nicht laufen, das schafft man nicht.",
+      "cites": [
+        "demo-d-iv01-E1#19.0",
+        "demo-d-iv12-E6#10.0"
+      ],
+      "warnings": []
+    },
+    {
+      "question": "Welches Schmierfett nehmen wir für die Führungen vom RB-2?",
+      "abstained": true,
+      "answer": "Dazu ist noch kein Wissen erfasst. Die Frage geht an die Interviewplanung.",
+      "cites": [],
+      "warnings": []
+    },
+    {
+      "question": "Woher kam der Grat an den Teilen für Brenner Automotive?",
+      "abstained": false,
+      "answer": "Ingrid Falk: Bei Brenner Automotive hatten wir mal Grat an den Teilen, da war das Werkzeug verschlissen.",
+      "cites": [
+        "demo-d-iv10-E8#10.0"
+      ],
+      "warnings": [
+        "Nur eine Quelle: Ingrid Falk, Interview demo-d-iv10-E8, Minute 8."
+      ]
+    },
+    {
+      "question": "Wo bekommen wir Ersatzteile für die alten Hydraulikpumpen?",
+      "abstained": false,
+      "answer": "Gisela Brandt: Ersatzteile für die alten Hydraulikpumpen hat nur noch die Firma Pumpen Reuter in Kassel.",
+      "cites": [
+        "demo-d-iv02-E2#3.0"
+      ],
+      "warnings": [
+        "Nur eine Quelle: Gisela Brandt, Interview demo-d-iv02-E2, Minute 2."
+      ]
+    },
+    {
+      "question": "Wer hilft bei Engpässen beim PP-T20?",
+      "abstained": true,
+      "answer": "Dazu ist noch kein Wissen erfasst. Die Frage geht an die Interviewplanung.",
+      "cites": [],
+      "warnings": []
+    },
+    {
+      "question": "Wer wartet die Temperiergeräte?",
+      "abstained": false,
+      "answer": "Tomasz Wójcik: Die Temperiergeräte wartet die Firma Kältetechnik Sommer, Frau Sommer kennt jede Macke.",
+      "cites": [
+        "demo-d-iv09-E7#1.0"
+      ],
+      "warnings": [
+        "Nur eine Quelle: Tomasz Wójcik, Interview demo-d-iv09-E7, Minute 2."
+      ]
+    },
+    {
+      "question": "Mit welcher Werkzeugtemperatur läuft WZ-5502?",
+      "abstained": false,
+      "answer": "Tomasz Wójcik: Das Werkzeug 5502 läuft mit 70 Grad Werkzeugtemperatur. Gisela Brandt: Das WZ 55 02 läuft mit siebzig Grad Werkzeugtemperatur. Hakan Yılmaz: Wir fahren das WZ-5502 so warm, weil sonst die Bindenähte reißen.",
+      "cites": [
+        "demo-d-iv09-E7#1.2",
+        "demo-d-iv02-E2#10.0",
+        "demo-d-iv15-E3#3.0"
+      ],
+      "warnings": [
+        "Nur eine Quelle: Hakan Yılmaz, Interview demo-d-iv15-E3, Minute 2."
+      ]
+    },
+    {
+      "question": "Wie lange muss PA6-GF30 aus einem offenen Sack getrocknet werden?",
+      "abstained": false,
+      "answer": "Hakan Yılmaz: PA 6 GF 30 aus einem offenen Sack trocknen wir sechs Stunden bei achtzig Grad. Jürgen Albers: PA sechs GF dreißig aus einem offenen Sack trocknen wir 7 Stunden bei achtzig Grad.",
+      "cites": [
+        "demo-d-iv08-E3#1.0",
+        "demo-d-iv03-E5#3.3"
+      ],
+      "warnings": [
+        "Widerspruch: Hakan Yılmaz sagt 6 h, Jürgen Albers sagt 7 h. Bitte klären, bevor danach gearbeitet wird."
+      ]
+    },
+    {
+      "question": "Warum begrenzen wir den Mahlgutanteil?",
+      "abstained": false,
+      "answer": "Werner Kraus: Mehr Mahlgut macht die Schlagzähigkeit kaputt, das merkt man erst beim Kunden.",
+      "cites": [
+        "demo-d-iv01-E1#16.0"
+      ],
+      "warnings": [
+        "Nur eine Quelle: Werner Kraus, Interview demo-d-iv01-E1, Minute 11."
+      ]
+    },
+    {
+      "question": "Was tun wir beim Wechsel von Schwarz auf Weiß an der SGM-03?",
+      "abstained": false,
+      "answer": "Werner Kraus: Von Schwarz auf Weiß an der SGM 3 reicht Spülen nie, da bauen wir die Schnecke aus.",
+      "cites": [
+        "demo-d-iv01-E1#13.0"
+      ],
+      "warnings": [
+        "Nur eine Quelle: Werner Kraus, Interview demo-d-iv01-E1, Minute 9."
+      ]
+    }
+  ]
+}

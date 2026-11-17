@@ -1,0 +1,161 @@
+{
+  "baseURL": "http://models.internal/v1",
+  "models": {
+    "gpt-4.1-mini": {
+      "inputMicrosPerMTok": 380000,
+      "outputMicrosPerMTok": 1500000
+    },
+    "gpt-4.1": {
+      "inputMicrosPerMTok": 1900000,
+      "outputMicrosPerMTok": 7600000
+    }
+  },
+  "routes": {
+    "phrase": [
+      "gpt-4.1-mini",
+      "gpt-4.1"
+    ],
+    "interview_free": [
+      "gpt-4.1",
+      "gpt-4.1-mini"
+    ],
+    "extract": [
+      "gpt-4.1",
+      "gpt-4.1-mini"
+    ],
+    "answer": [
+      "gpt-4.1",
+      "gpt-4.1-mini"
+    ],
+    "answer_rag": [
+      "gpt-4.1",
+      "gpt-4.1-mini"
+    ]
+  },
+  "voice": {
+    "sttMicrosPerMinute": 6000,
+    "ttsMicrosPerKChar": 15000
+  },
+  "interview": {
+    "minutes": 30,
+    "wrapAtMinute": 28.5,
+    "closeTopicAfterEmpty": 2,
+    "minScore": 0.35,
+    "typeWeight": {
+      "exception": 1.5,
+      "threshold": 1.2,
+      "contact": 1.0,
+      "rule": 1.0,
+      "rationale": 0.6,
+      "procedure": 0.5
+    },
+    "yield": {
+      "open": {
+        "procedure": 0.7,
+        "threshold": 0.3,
+        "rule": 0.3,
+        "exception": 0.15,
+        "rationale": 0.15,
+        "contact": 0.15
+      },
+      "example": {
+        "exception": 0.6,
+        "rule": 0.3,
+        "procedure": 0.1,
+        "threshold": 0.1,
+        "rationale": 0.1,
+        "contact": 0.1
+      },
+      "failure": {
+        "exception": 0.8,
+        "rule": 0.2,
+        "threshold": 0.15,
+        "procedure": 0.05,
+        "rationale": 0.1,
+        "contact": 0.1
+      },
+      "numbers": {
+        "threshold": 0.8,
+        "procedure": 0.15,
+        "rule": 0.1,
+        "exception": 0.1,
+        "rationale": 0.05,
+        "contact": 0.05
+      },
+      "why": {
+        "rationale": 0.8,
+        "rule": 0.15,
+        "procedure": 0.05,
+        "threshold": 0.05,
+        "exception": 0.1,
+        "contact": 0.05
+      },
+      "newcomer": {
+        "rule": 0.75,
+        "exception": 0.25,
+        "procedure": 0.15,
+        "threshold": 0.1,
+        "rationale": 0.15,
+        "contact": 0.15
+      },
+      "who": {
+        "contact": 0.8,
+        "rule": 0.1,
+        "procedure": 0.05,
+        "threshold": 0.05,
+        "exception": 0.05,
+        "rationale": 0.05
+      }
+    },
+    "criticalTopicFactor": 1.5,
+    "focusTopicFactor": 2
+  },
+  "fixedQuestionnaire": [
+    "open",
+    "numbers",
+    "newcomer"
+  ],
+  "answer": {
+    "k": 6,
+    "minLexical": 2.5,
+    "dims": 512,
+    "rrfK": 60,
+    "minCited": 1.0
+  },
+  "planner": {
+    "sessionsPerExpertMax": 3,
+    "priorPerTopic": 5,
+    "stayFactor": 0.6
+  },
+  "smallTalk": {
+    "functionWords": [
+      "Das",
+      "Die",
+      "Der",
+      "Wir",
+      "Ich",
+      "Na",
+      "Hm",
+      "Ehrlich",
+      "Mehr",
+      "Da",
+      "Es",
+      "Ja",
+      "Nein",
+      "Gern",
+      "Also",
+      "So"
+    ],
+    "genericNouns": [
+      "Jahre",
+      "Jahren",
+      "Zeit",
+      "Team",
+      "Meinungen",
+      "Weile",
+      "Besonderes",
+      "Seite",
+      "Thema"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "tacit-knowledge-interviewer",
+  "version": "1.0.0",
+  "description": "AI voice interviewer that captures experts' tacit knowledge, a cited knowledge graph, and agents that serve it.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p .",
+    "evaluate": "tsx src/eval/cli.ts dev",
+    "gate": "tsx src/eval/cli.ts gate",
+    "lock": "tsx src/eval/cli.ts lock",
+    "heldout": "tsx src/eval/cli.ts heldout",
+    "readme": "tsx src/eval/cli.ts readme",
+    "seed": "tsx src/eval/cli.ts seed",
+    "org": "tsx src/eval/cli.ts org",
+    "serve": "tsx src/product/service/main.ts",
+    "world": "tsx src/world/server.ts"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.16",
+    "@electric-sql/pglite-pgvector": "^0.0.17",
+    "@langchain/core": "^1.4.1",
+    "@langchain/langgraph": "^1.7.5",
+    "fastify": "^5.12.8",
+    "livekit-server-sdk": "^2.20.0",
+    "openai": "^7.57.0",
+    "pg": "^8.23.1",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/pg": "^8.23.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

@@ -1,0 +1,44 @@
+# The platform on one machine: PostgreSQL with pgvector, the memory service and the console.
+# Models: set OPENAI_BASE_URL and OPENAI_API_KEY (OpenAI, Azure OpenAI or any compatible endpoint). Without them the
+# memory serves the demo campaign read-only. Voice: run the worker in voice/ against your LiveKit project.
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: memory
+      POSTGRES_PASSWORD: memory
+      POSTGRES_DB: memory
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "memory"]
+      interval: 5s
+      retries: 20
+
+  memory:
+    build: .
+    environment:
+      DATABASE_URL: postgresql://memory:memory@db:5432/memory
+      OPENAI_BASE_URL: ${OPENAI_BASE_URL:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8795:8795"
+
+  web:
+    build: ./web
+    environment:
+      MEMORY_URL: http://memory:8795
+      MEMORY_KEY: ${MEMORY_KEY:-km-demo-key}
+      LIVEKIT_URL: ${LIVEKIT_URL:-}
+      LIVEKIT_API_KEY: ${LIVEKIT_API_KEY:-}
+      LIVEKIT_API_SECRET: ${LIVEKIT_API_SECRET:-}
+    depends_on:
+      - memory
+    ports:
+      - "3000:3000"
+
+volumes:
+  pgdata:

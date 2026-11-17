@@ -1,0 +1,10 @@
+{
+  "design": "platform",
+  "minCaptured": 0.85,
+  "minAtRisk": 0.85,
+  "maxWrongAnswers": 0.06,
+  "maxWrongFacts": 10,
+  "minRight": 0.7,
+  "maxCostPerSessionCents": 15,
+  "beats": { "questionnaire": ["capturedShare", "atRiskShare"], "free_llm": ["capturedShare", "perExpertHour"] }
+}

@@ -1,0 +1,10 @@
+node_modules
+web/node_modules
+web/.next
+scratch
+docs
+voice/.venv
+**/__pycache__
+.git
+*.log
+.env

@@ -1,0 +1,50 @@
+/* Every colour, size and duration of the console. Components read these and nothing else. */
+:root {
+  --paper: #eef1f2;
+  --sheet: #fafbfb;
+  --ink: #15191e;
+  --ink-soft: #4b5560;
+  --rule: #d3d9dd;
+  --rule-strong: #aeb8bf;
+  --marker: #f6e27a;
+  --marker-edge: #c9a90f;
+  --agreed: #2e7d4f;
+  --agreed-wash: #dcefe3;
+  --single: #9a5d00;
+  --single-wash: #f7ead2;
+  --conflict: #b3261e;
+  --conflict-wash: #f8dcd9;
+  --gone: #7c858d;
+  --focus: #2457c5;
+
+  --font-ui: 'Schibsted Grotesk Variable', system-ui, sans-serif;
+  --font-voice: 'Source Serif 4 Variable', Georgia, serif;
+
+  --size-xs: 0.75rem;
+  --size-s: 0.8125rem;
+  --size-m: 0.9375rem;
+  --size-l: 1.25rem;
+  --size-xl: 1.875rem;
+  --size-voice: 1.0625rem;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --radius-s: 4px;
+  --radius-m: 10px;
+  --rail: 200px;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font-ui); font-size: var(--size-m); line-height: 1.5; }
+td, .num { font-variant-numeric: tabular-nums; }
+h1, h2, h3 { margin: 0; font-weight: 700; letter-spacing: -0.015em; }
+button, input, textarea, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }

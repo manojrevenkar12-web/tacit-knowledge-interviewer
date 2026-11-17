@@ -1,0 +1,1 @@
+{ "port": 8795, "keys": { "km-demo-key": "manager", "viewer-demo-key": "viewer" }, "seedFile": "demo/seed.json" }

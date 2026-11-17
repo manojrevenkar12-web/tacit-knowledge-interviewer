@@ -1,0 +1,16 @@
+.view { padding: var(--space-6); display: grid; gap: var(--space-5); max-width: 1180px; }
+.view h1 { font-size: var(--size-xl); }
+.lede { margin: var(--space-1) 0 0; color: var(--ink-soft); max-width: 70ch; }
+.scroll { overflow-x: auto; }
+.grid { border-collapse: separate; border-spacing: 3px; font-size: var(--size-s); }
+.grid th[scope='row'] { text-align: left; font-weight: 650; padding-right: var(--space-3); white-space: nowrap; }
+.role { display: block; font-weight: 400; color: var(--ink-soft); font-size: var(--size-xs); }
+.months { color: var(--ink-soft); white-space: nowrap; padding-right: var(--space-3); }
+.topic { height: 120px; vertical-align: bottom; width: 44px; }
+.topic span { display: inline-block; writing-mode: vertical-rl; transform: rotate(180deg); font-weight: 500; color: var(--ink-soft); }
+.cell { width: 44px; height: 32px; border-radius: 3px; background: color-mix(in srgb, var(--conflict) calc(var(--shade) * 85%), var(--sheet)); }
+.none { width: 44px; height: 32px; border-radius: 3px; background: repeating-linear-gradient(45deg, transparent 0 4px, var(--rule) 4px 5px); }
+.grid tr[data-next] th[scope='row'] { box-shadow: inset 4px 0 0 var(--marker); padding-left: var(--space-2); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.next { margin: 0; font-weight: 600; }
+@media (max-width: 760px) { .view { padding: var(--space-4); } }

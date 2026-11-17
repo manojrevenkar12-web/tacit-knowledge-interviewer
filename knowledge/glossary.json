@@ -1,0 +1,8 @@
+{
+  "note": "Master data the company already has: machines, moulds, materials, robots and customers with their identifiers.",
+  "machines": ["SGM-03", "SGM-07", "SGM-11"],
+  "tools": ["WZ-4711", "WZ-2290", "WZ-5502"],
+  "materials": { "PA6-GF30": ["PA6-GF30"], "PP-T20": ["PP-T20"], "POM-C": ["POM-C"], "PC": ["PC", "Polycarbonat"] },
+  "robots": ["RB-2"],
+  "customers": { "KD-1001": ["Brenner Automotive", "Brenner"], "KD-2040": ["Lumatec Leuchten", "Lumatec"], "KD-3307": ["Hausgeräte Nord"] }
+}

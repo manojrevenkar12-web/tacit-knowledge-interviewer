@@ -1,0 +1,172 @@
+{
+  "note": "The org chart and topic list the customer gives at onboarding. No knowledge in here.",
+  "experts": [
+    {
+      "id": "E1",
+      "name": "Werner Kraus",
+      "role": "Schichtleiter Spritzguss",
+      "topics": [
+        "startup",
+        "toolchange",
+        "colour",
+        "regrind",
+        "handover"
+      ],
+      "leavesInMonths": 4
+    },
+    {
+      "id": "E2",
+      "name": "Gisela Brandt",
+      "role": "Leiterin Instandhaltung",
+      "topics": [
+        "hydraulics",
+        "mouldtemp",
+        "robot",
+        "startup"
+      ],
+      "leavesInMonths": 7
+    },
+    {
+      "id": "E3",
+      "name": "Hakan Yılmaz",
+      "role": "Prozessingenieur",
+      "topics": [
+        "drying",
+        "startup",
+        "mouldtemp",
+        "regrind"
+      ],
+      "leavesInMonths": null
+    },
+    {
+      "id": "E4",
+      "name": "Petra Neumann",
+      "role": "Qualitätssicherung",
+      "topics": [
+        "firstarticle",
+        "complaints",
+        "regrind"
+      ],
+      "leavesInMonths": null
+    },
+    {
+      "id": "E5",
+      "name": "Jürgen Albers",
+      "role": "Einkauf Rohstoffe",
+      "topics": [
+        "substitutes",
+        "drying",
+        "complaints"
+      ],
+      "leavesInMonths": 10
+    },
+    {
+      "id": "E6",
+      "name": "Svenja Roth",
+      "role": "Schichtleiterin",
+      "topics": [
+        "handover",
+        "toolchange",
+        "colour"
+      ],
+      "leavesInMonths": null
+    },
+    {
+      "id": "E7",
+      "name": "Tomasz Wójcik",
+      "role": "Einrichter",
+      "topics": [
+        "robot",
+        "toolchange",
+        "colour",
+        "mouldtemp"
+      ],
+      "leavesInMonths": null
+    },
+    {
+      "id": "E8",
+      "name": "Ingrid Falk",
+      "role": "Kundenservice",
+      "topics": [
+        "complaints",
+        "firstarticle",
+        "substitutes"
+      ],
+      "leavesInMonths": null
+    }
+  ],
+  "topics": [
+    {
+      "id": "drying",
+      "de": "Materialtrocknung",
+      "en": "material drying",
+      "critical": true
+    },
+    {
+      "id": "startup",
+      "de": "Anfahren der Maschinen",
+      "en": "machine start-up",
+      "critical": true
+    },
+    {
+      "id": "toolchange",
+      "de": "Werkzeugwechsel",
+      "en": "tool change",
+      "critical": true
+    },
+    {
+      "id": "colour",
+      "de": "Farbwechsel",
+      "en": "colour change",
+      "critical": false
+    },
+    {
+      "id": "mouldtemp",
+      "de": "Werkzeugtemperierung",
+      "en": "mould temperature control",
+      "critical": true
+    },
+    {
+      "id": "hydraulics",
+      "de": "Hydraulik-Wartung",
+      "en": "hydraulics maintenance",
+      "critical": true
+    },
+    {
+      "id": "robot",
+      "de": "Entnahmeroboter",
+      "en": "take-out robot",
+      "critical": false
+    },
+    {
+      "id": "firstarticle",
+      "de": "Erstmusterprüfung",
+      "en": "first article inspection",
+      "critical": true
+    },
+    {
+      "id": "complaints",
+      "de": "Reklamationen",
+      "en": "customer complaints",
+      "critical": false
+    },
+    {
+      "id": "substitutes",
+      "de": "Materialersatz im Einkauf",
+      "en": "material substitutes",
+      "critical": true
+    },
+    {
+      "id": "handover",
+      "de": "Schichtübergabe",
+      "en": "shift handover",
+      "critical": false
+    },
+    {
+      "id": "regrind",
+      "de": "Mahlgut und Ausschuss",
+      "en": "regrind and scrap",
+      "critical": false
+    }
+  ]
+}

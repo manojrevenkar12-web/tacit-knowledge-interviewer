@@ -1,0 +1,66 @@
+{
+  "design": "platform",
+  "pass": true,
+  "checks": [
+    {
+      "name": "knowledge captured",
+      "value": 0.9,
+      "limit": "≥ 0.85",
+      "pass": true
+    },
+    {
+      "name": "knowledge at risk captured",
+      "value": 0.9683,
+      "limit": "≥ 0.85",
+      "pass": true
+    },
+    {
+      "name": "staff questions answered right",
+      "value": 0.76,
+      "limit": "≥ 0.7",
+      "pass": true
+    },
+    {
+      "name": "wrong answers",
+      "value": 0.0178,
+      "limit": "≤ 0.06",
+      "pass": true
+    },
+    {
+      "name": "wrong values stated as fact",
+      "value": 2,
+      "limit": "≤ 10",
+      "pass": true
+    },
+    {
+      "name": "cost per session (ct)",
+      "value": 8.33,
+      "limit": "≤ 15",
+      "pass": true
+    },
+    {
+      "name": "capturedShare beats questionnaire",
+      "value": 0.9,
+      "limit": "> 0.7097",
+      "pass": true
+    },
+    {
+      "name": "atRiskShare beats questionnaire",
+      "value": 0.9683,
+      "limit": "> 0.5714",
+      "pass": true
+    },
+    {
+      "name": "capturedShare beats free_llm",
+      "value": 0.9,
+      "limit": "> 0.7516",
+      "pass": true
+    },
+    {
+      "name": "perExpertHour beats free_llm",
+      "value": 23.49,
+      "limit": "> 13.62",
+      "pass": true
+    }
+  ]
+}

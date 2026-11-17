@@ -1,0 +1,21 @@
+[project]
+name = "interview-voice"
+version = "1.0.0"
+description = "LiveKit voice worker for expert interviews; the questions come from the interview brain."
+requires-python = ">=3.10"
+dependencies = ["livekit-agents==1.8.12", "livekit-plugins-openai", "httpx"]
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-asyncio"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+pythonpath = ["."]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["interviewer"]

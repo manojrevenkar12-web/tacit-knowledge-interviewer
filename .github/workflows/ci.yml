@@ -1,0 +1,114 @@
+name: ci
+on:
+  push:
+  pull_request:
+
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.23
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - name: Tests (normaliser, graph, policy, answers, service on PGlite, invariants, one company end to end)
+        run: npm test
+      - name: The org chart, reports, gate, demo seed and README agree with the code
+        run: |
+          npm run org
+          npm run evaluate
+          npm run gate
+          npm run seed
+          npm run readme
+          git diff --exit-code knowledge reports demo README.md
+
+  postgres:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: memory
+          POSTGRES_PASSWORD: memory
+          POSTGRES_DB: memory
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U memory" --health-interval 5s --health-timeout 5s --health-retries 20
+    env:
+      DATABASE_URL: postgresql://memory:memory@localhost:5432/memory
+      OPENAI_BASE_URL: http://localhost:8796/v1
+      OPENAI_API_KEY: sim
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.23
+          cache: npm
+      - run: npm ci
+      - name: On PostgreSQL 16 with pgvector, simulated experts take interviews through the API
+        run: |
+          node --import tsx src/product/service/main.ts > memory.log 2>&1 &
+          MEM=$!
+          for i in $(seq 1 90); do curl -sf localhost:8795/healthz && break; sleep 1; done
+          grep -q 'demo interviews loaded' memory.log
+          WORLD_SEED=ci-1 SESSIONS=4 npm run world -- --interview http://localhost:8795
+          Q() { PGPASSWORD=memory psql -h localhost -U memory -d memory -tAc "$1"; }
+          test "$(Q "select count(*) from interviews where interview_id like 'iv-%' and done")" = "4"
+          test "$(Q 'select count(*) from (select interview_id, turn from turns group by 1, 2 having count(*) > 1) d')" = "0"
+          test "$(Q 'select count(*) from claims where embedding is null')" = "0"
+          test "$(Q "select count(*) from claims where interview_id like 'iv-%'")" -gt 20
+          test "$(Q 'select count(*) from ledger where ok')" -gt 40
+          curl -sf -H 'x-api-key: viewer-demo-key' 'localhost:8795/api/graph/similar?q=PA6-GF30%20trocknen' | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{const r=JSON.parse(s);console.log(r[0]);if(!/PA ?6|PA sechs/.test(r[0].quote))process.exit(1)})"
+          kill $MEM
+          sleep 2
+          node --import tsx src/product/service/main.ts > memory2.log 2>&1 &
+          for i in $(seq 1 90); do curl -sf localhost:8795/healthz && break; sleep 1; done
+          grep -qx 'memory on :8795' memory2.log
+          test "$(Q "select count(*) from interviews where interview_id like 'iv-%'")" = "4"
+
+  web:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.23
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+
+  voice:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: voice
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -e '.[test]'
+      - run: pytest -q
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: The platform comes up with docker compose and the console serves the demo campaign
+        run: |
+          docker compose up -d --build
+          for i in $(seq 1 120); do curl -sf localhost:8795/healthz && break; sleep 1; done
+          for i in $(seq 1 60); do curl -sf localhost:3000/ > /dev/null && break; sleep 1; done
+          curl -sf localhost:3000/api/memory/interviews | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{if(JSON.parse(s).length<10)process.exit(1)})"
+          curl -sf localhost:3000/ | grep -q 'Tacit'
+      - if: failure()
+        run: docker compose logs
