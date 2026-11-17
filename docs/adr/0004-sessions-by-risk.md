@@ -10,6 +10,7 @@ probably still uncaptured (a prior per topic minus what the graph holds, lowered
 the highest expert who has sessions left and gives the interviewer two focus topics.
 
 ## Consequences
-On the simulated company this helps only a little against a plain round robin, because the gap-driven interviewer
-already captures most of what each session can reach. The README says so. The planner matters more when expert
-time is shorter than in the simulation.
+On the simulated company this is not a clear win over a plain round robin: ahead on dev, behind on overall capture
+on the held-out seeds, slightly ahead there on the leaving experts' critical knowledge. The gap-driven interviewer
+already captures most of what each session can reach. The planner matters when expert time runs out before everyone
+is interviewed, which the simulation does not stress yet.

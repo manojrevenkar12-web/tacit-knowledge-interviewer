@@ -33,6 +33,11 @@ export function writeReadme(): void {
   const m = (n: string) => dev.designs.find((d) => d.name === n)!.metrics
   const [p, q, f, nc, rr, go] = ['platform', 'questionnaire', 'free_llm', 'no_check', 'round_robin', 'graph_off'].map(m)
   const kus = dev.designs[0].metrics.knowledge / dev.seeds.length
+  const hm = (n: string) => held?.designs.find((d) => d.name === n)?.metrics
+  const [hp, hrr] = [hm('platform'), hm('round_robin')]
+  const sched = `on dev, the same interviews in alphabetical order capture ${pct(rr.capturedShare)} against ${pct(p.capturedShare)}, and ${pct(rr.atRiskShare)} of the leaving experts' critical knowledge against ${pct(p.atRiskShare)}${
+    hp && hrr ? `; on the held-out seeds ${pct(hrr.capturedShare)} against ${pct(hp.capturedShare)}, and ${pct(hrr.atRiskShare)} against ${pct(hp.atRiskShare)}` : ''
+  }. The interviewer, not the order, does most of the work.`
   const types = Object.entries(dev.platform.byType).map(([k, v]) => `| ${TYPE[k]} | ${v.knowledge} | ${pct(v.captured / v.knowledge)} |`).join('\n')
   const leaving = dev.platform.leaving.map((l) => `| ${l.name} | ${l.leavesInMonths} months | ${l.atRisk} | ${pct(l.captured / Math.max(1, l.atRisk))} |`).join('\n')
   const excerpt = dev.platform.excerpt
@@ -80,7 +85,7 @@ ${table(dev)}
 - **Answers from the graph are wrong ${pct(p.wrong, 1)} of the time; from the same interviews' transcripts ${pct(go.wrong, 1)}.**
   Transcript search answers more questions (${pct(go.right)} right) because it rarely says "I don't know"; the graph says
   "not captured yet" on ${pct(p.honestGap)} of questions, which includes the ${pct(w.unknownQuestions / (w.staffQuestions + w.unknownQuestions))} nobody can answer.
-- **Scheduling by risk helps a little:** the same interviews in alphabetical order capture ${pct(rr.capturedShare)}, ${pct(rr.atRiskShare)} of the leaving experts' critical knowledge.
+- **Scheduling by risk is not a clear win:** ${sched}
 
 ${
   held

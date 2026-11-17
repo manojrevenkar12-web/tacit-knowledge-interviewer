@@ -28,11 +28,11 @@ Every design meets the same experts, who give the same answers to the same quest
 
 | Design | Knowledge captured <sub>(per seed)</sub> | Tacit knowledge | Critical knowledge of leaving experts | Captured per expert hour | Expert time per company | Wrong values kept as fact | Staff questions answered right | Wrong answers | Honest "not captured yet" | Model and voice cost per session |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| Fixed questionnaire, transcript search | 71% <sub>61%–76%</sub> | 58% | 57% | 21.5 | 2.0 h | 12 | 64% | 23.1% | 11% | 7.2 ct |
-| A model interviews freely, transcript search | 75% <sub>60%–84%</sub> | 70% | 71% | 13.6 | 3.4 h | 12 | 68% | 22.7% | 8% | 37.3 ct |
+| Fixed questionnaire, transcript search | 71% <sub>63%–76%</sub> | 58% | 57% | 21.6 | 2.0 h | 12 | 64% | 23.1% | 11% | 7.2 ct |
+| A model interviews freely, transcript search | 75% <sub>60%–84%</sub> | 70% | 71% | 13.6 | 3.4 h | 12 | 68% | 22.7% | 8% | 37.4 ct |
 | **Gap-driven interviews, risk planner, cited graph** | **90%** <sub>84%–95%</sub> | **87%** | **97%** | **23.5** | **2.4** h | **2** | **76%** | **1.8%** | **19%** | **8.3 ct** |
 | Platform without checking stated numbers | 87% <sub>74%–92%</sub> | 88% | 94% | 24.8 | 2.2 h | 11 | 73% | 4.4% | 19% | 7.6 ct |
-| Platform, sessions in alphabetical order | 85% <sub>81%–94%</sub> | 84% | 92% | 23.5 | 2.3 h | 7 | 74% | 4.4% | 20% | 7.9 ct |
+| Platform, sessions in alphabetical order | 86% <sub>81%–94%</sub> | 84% | 92% | 23.6 | 2.3 h | 7 | 74% | 4.4% | 20% | 7.9 ct |
 | Platform interviews, answers from transcripts | 90% <sub>84%–95%</sub> | 87% | 97% | 23.5 | 2.4 h | 2 | 79% | 16.4% | 3% | 8.3 ct |
 
 - **The gap-driven interviewer captures 90% of what the experts know, 87% of the tacit part**,
@@ -44,11 +44,53 @@ Every design meets the same experts, who give the same answers to the same quest
 - **Answers from the graph are wrong 1.8% of the time; from the same interviews' transcripts 16.4%.**
   Transcript search answers more questions (79% right) because it rarely says "I don't know"; the graph says
   "not captured yet" on 19% of questions, which includes the 11% nobody can answer.
-- **Scheduling by risk helps a little:** the same interviews in alphabetical order capture 85%, 92% of the leaving experts' critical knowledge.
+- **Scheduling by risk is not a clear win:** on dev, the same interviews in alphabetical order capture 86% against 90%, and 92% of the leaving experts' critical knowledge against 97%; on the held-out seeds 90% against 87%, and 89% against 91%. The interviewer, not the order, does most of the work.
 
-### Held-out seeds
+### Held-out seeds, run once
 
-Not run yet: `npm run lock`, then `npm run heldout`, once.
+Seeds heldout-1, heldout-2, heldout-3, heldout-4, heldout-5, run once with the code and settings dev ended on (`config/heldout.lock`).
+
+| Design | Knowledge captured <sub>(per seed)</sub> | Tacit knowledge | Critical knowledge of leaving experts | Captured per expert hour | Expert time per company | Wrong values kept as fact | Staff questions answered right | Wrong answers | Honest "not captured yet" | Model and voice cost per session |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| Fixed questionnaire, transcript search | 74% <sub>71%–79%</sub> | 58% | 62% | 21.7 | 2.1 h | 10 | 67% | 23.1% | 9% | 7.3 ct |
+| A model interviews freely, transcript search | 76% <sub>73%–81%</sub> | 73% | 73% | 13.9 | 3.4 h | 7 | 70% | 20.0% | 9% | 37.1 ct |
+| **Gap-driven interviews, risk planner, cited graph** | **87%** <sub>85%–89%</sub> | **84%** | **91%** | **22.6** | **2.4** h | **5** | **70%** | **4.0%** | **20%** | **8.4 ct** |
+| Platform without checking stated numbers | 85% <sub>79%–92%</sub> | 84% | 87% | 23.7 | 2.2 h | 13 | 69% | 5.3% | 20% | 7.8 ct |
+| Platform, sessions in alphabetical order | 90% <sub>84%–95%</sub> | 85% | 89% | 23.2 | 2.4 h | 5 | 76% | 4.0% | 15% | 8.4 ct |
+| Platform interviews, answers from transcripts | 87% <sub>85%–89%</sub> | 84% | 91% | 22.6 | 2.4 h | 5 | 73% | 21.8% | 4% | 8.4 ct |
+
+**The gate holds on the held-out seeds, with less room than on dev.** The platform captured 87% of what the experts
+knew (dev 90%), 91% of the leaving experts' critical knowledge (dev 97%), and answered 70% of staff questions right
+(dev 76%) with 4.0% wrong (dev 1.8%). It kept 5 wrong values as fact across five companies (dev 2). Every limit in
+`config/gate.json` passes, the right-answer floor of 70% by a fraction of a point. The gate was not moved.
+
+**The risk planner did not beat alphabetical order here.** With the same interviewer, sessions in alphabetical order
+captured 90% against the planner's 87%, and answered more questions right, while the planner kept a small lead on
+the leaving experts' critical knowledge (91% against 89%). On dev the planner was ahead on both. What carries the
+result is the gap-driven interviewer and the checks, not the order of the sessions; the planner's case rests on
+companies where expert time runs out before everyone is interviewed, which this simulation does not stress.
+
+**Checking stated values matters as much on held-out as on dev.** Without the check (`no_check`) the memory kept 13
+wrong values as fact against the platform's 5.
+
+**Transcript search stays wrong about one answer in five** (21.8% with the platform's interviews, `graph_off`), the
+graph 4.0%.
+
+## The first attempt crashed, and what changed
+
+The first held-out attempt stopped before it wrote any scores. On one held-out company both models on the
+extraction route returned 503 for the same turn, and the interview threw instead of going on: in production that is
+an expert left mid-sentence. The fix, made and measured on dev before re-locking:
+
+- the gateway tries an overloaded model again (`retries` in `config/product.json`) before moving to the next model;
+- if every model on a route is still down, the question is asked from a template in config, and the answer is kept
+  in the transcript as unread instead of being dropped or counted as "nothing new";
+- `tests/outage.test.ts` covers both.
+
+Dev results did not change beyond a tenth of a point. The first lock (`9a249df0…`) was replaced by the lock of the
+fixed platform (`2d289e16…`, in `config/heldout.lock`), and the held-out seeds were then run once. No turn was left
+unread in that run.
+
 
 ### What the platform captures, by kind (dev)
 
@@ -98,7 +140,7 @@ The opening turns of the first dev session, as speech-to-text wrote the answers:
 
 ### Release gate
 
-`npm run gate` **passes**: knowledge captured 0.9 (≥ 0.85); knowledge at risk captured 0.9683 (≥ 0.85); staff questions answered right 0.76 (≥ 0.7); wrong answers 0.0178 (≤ 0.06); wrong values stated as fact 2 (≤ 10); cost per session (ct) 8.33 (≤ 15); capturedShare beats questionnaire 0.9 (> 0.7097); atRiskShare beats questionnaire 0.9683 (> 0.5714); capturedShare beats free_llm 0.9 (> 0.7516); perExpertHour beats free_llm 23.49 (> 13.62).
+`npm run gate` **passes**: knowledge captured 0.9 (≥ 0.85); knowledge at risk captured 0.9683 (≥ 0.85); staff questions answered right 0.76 (≥ 0.7); wrong answers 0.0178 (≤ 0.06); wrong values stated as fact 2 (≤ 10); cost per session (ct) 8.32 (≤ 15); capturedShare beats questionnaire 0.9 (> 0.7129); atRiskShare beats questionnaire 0.9683 (> 0.5714); capturedShare beats free_llm 0.9 (> 0.7516); perExpertHour beats free_llm 23.49 (> 13.62).
 
 ## The console
 

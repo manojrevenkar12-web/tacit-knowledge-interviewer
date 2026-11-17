@@ -22,6 +22,8 @@ export interface Metrics {
   missed: number
   costPerSessionCents: number
   sessions: number
+  /** Answers kept but not read, because every model on the route was down. */
+  unreadTurns: number
 }
 
 const r4 = (x: number) => Math.round(x * 10_000) / 10_000
@@ -40,6 +42,7 @@ export function metrics(runs: DesignRun[]): Metrics {
   let minutes = 0
   let micros = 0
   let sessions = 0
+  let unread = 0
   const answers = runs.flatMap((r) => r.answers)
   for (const r of runs) {
     const cap = capturedRight(r.world, r.graph)
@@ -67,6 +70,7 @@ export function metrics(runs: DesignRun[]): Metrics {
     minutes += r.expertMinutes
     micros += r.modelMicros + r.voiceMicros
     sessions += r.sessions.length
+    unread += r.sessions.reduce((n, x) => n + x.unread, 0)
   }
   const share = (o: string) => r4(answers.filter((a) => a.outcome === o).length / answers.length)
   return {
@@ -89,5 +93,6 @@ export function metrics(runs: DesignRun[]): Metrics {
     missed: share('missed'),
     costPerSessionCents: r2(micros / 10_000 / sessions),
     sessions,
+    unreadTurns: unread,
   }
 }

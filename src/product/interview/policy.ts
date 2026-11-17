@@ -11,6 +11,8 @@ export interface InterviewSettings {
   yield: Record<string, Record<KuType, number>>
   criticalTopicFactor: number
   focusTopicFactor: number
+  /** Questions asked from a template when no model can word them. */
+  fallbackQuestions: Record<Move, string>
 }
 
 export interface TopicState {

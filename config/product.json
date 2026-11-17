@@ -32,6 +32,7 @@
       "gpt-4.1-mini"
     ]
   },
+  "retries": 1,
   "voice": {
     "sttMicrosPerMinute": 6000,
     "ttsMicrosPerKChar": 15000
@@ -108,7 +109,18 @@
       }
     },
     "criticalTopicFactor": 1.5,
-    "focusTopicFactor": 2
+    "focusTopicFactor": 2,
+    "fallbackQuestions": {
+      "open": "Wie läuft bei Ihnen das Thema {topic} ab?",
+      "example": "Können Sie mir ein konkretes Beispiel zu {topic} erzählen?",
+      "failure": "Was geht bei {topic} typischerweise schief, und woran merken Sie das?",
+      "numbers": "Mit welchen Werten arbeiten Sie bei {topic}, also Zeiten, Temperaturen, Drücke?",
+      "why": "Warum machen Sie das bei {topic} so und nicht anders?",
+      "newcomer": "Was würden Sie einem neuen Kollegen zu {topic} sagen, das in keinem Handbuch steht?",
+      "who": "Wen rufen Sie bei {topic} an, wenn Sie nicht weiterkommen?",
+      "confirm": "Sie sagten eben {value}. Gilt das immer so, oder gibt es Fälle, in denen es anders ist?",
+      "wrap": "Vielen Dank für Ihre Zeit. Gibt es zum Schluss noch etwas, das Sie unbedingt weitergeben möchten?"
+    }
   },
   "fixedQuestionnaire": [
     "open",

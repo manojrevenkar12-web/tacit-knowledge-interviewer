@@ -34,14 +34,14 @@
     },
     {
       "name": "cost per session (ct)",
-      "value": 8.33,
+      "value": 8.32,
       "limit": "≤ 15",
       "pass": true
     },
     {
       "name": "capturedShare beats questionnaire",
       "value": 0.9,
-      "limit": "> 0.7097",
+      "limit": "> 0.7129",
       "pass": true
     },
     {

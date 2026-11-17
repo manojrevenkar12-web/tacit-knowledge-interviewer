@@ -35,7 +35,7 @@ export interface DesignRun {
   world: World
   graph: KnowledgeGraph
   chunks: TranscriptChunk[]
-  sessions: (Session & { interviewId: string; minutes: number; turns: number; claims: number })[]
+  sessions: (Session & { interviewId: string; minutes: number; turns: number; claims: number; unread: number })[]
   answers: AnswerRecord[]
   expertMinutes: number
   modelMicros: number
@@ -78,7 +78,7 @@ export async function runDesign(seed: string, design: Design, pcfg: ProductConfi
     graph.add(...st.claims)
     for (const t of st.turns) transcript.push({ interviewId: id, turn: t.question.turn, topic: t.question.topic, move: t.question.move, why: t.plan.why, question: t.question.text, minute: t.answer.minute })
     expertMinutes += minute
-    sessions.push({ ...plan, interviewId: id, minutes: minute, turns: st.turns.length + 1, claims: st.claims.length })
+    sessions.push({ ...plan, interviewId: id, minutes: minute, turns: st.turns.length + 1, claims: st.claims.length, unread: st.turns.filter((t) => t.unread).length })
   }
   const answers: AnswerRecord[] = []
   for (const q of world.staffQuestions()) {

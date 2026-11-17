@@ -5,7 +5,7 @@ import type { Answer, ExpertProfile, KuType, Move, Question, TopicProfile } from
 import { readTurn, type Claim, type SmallTalk } from '../pipeline/claims.ts'
 import { subjectKey } from '../pipeline/graph.ts'
 import type { Glossary } from '../pipeline/normalize.ts'
-import type { Gateway } from '../llm/gateway.ts'
+import { GatewayError, type Gateway } from '../llm/gateway.ts'
 import { fixedMove, nextMove, type InterviewSettings, type Plan, type TopicState } from './policy.ts'
 
 export type Policy = 'gap' | 'fixed' | 'model'
@@ -15,6 +15,12 @@ export interface InterviewerSettings extends InterviewSettings {
   policy: Policy
   confirm: boolean
   fixedQuestionnaire: Move[]
+}
+
+/** A model route that failed on every model gives null; anything else is a bug and is thrown. */
+function unavailable(e: unknown): null {
+  if (e instanceof GatewayError) return null
+  throw e
 }
 
 interface TopicRecord {
@@ -30,6 +36,8 @@ export interface Turn {
   plan: Plan
   claims: string[]
   dropped: string[]
+  /** The models could not read this answer; the transcript is kept and the turn can be read again later. */
+  unread?: boolean
 }
 
 const State = Annotation.Root({
@@ -116,10 +124,13 @@ export class Interviewer {
     if (this.s.policy === 'model') {
       if (st.minute >= this.s.wrapAtMinute) return { plan: { topic: st.expert.topics[0], move: 'wrap', why: 'time is up' }, question: null, turn }
       const transcript = st.turns.map((t) => `I: ${t.question.text}\nE: ${t.answer.text}`).join('\n')
-      const out = await this.gw.json('interview_free', FREE, JSON.stringify({ interviewId: st.interviewId, turn, topics: st.expert.topics, transcript }), Free)
-      const topic = st.expert.topics.includes(out.value.topic) ? out.value.topic : st.expert.topics[0]
-      const plan: Plan = { topic, move: out.value.move, why: `chosen by ${out.model}` }
-      return { plan, turn, question: { interviewId: st.interviewId, turn, topic, move: plan.move, text: out.value.question } }
+      const out = await this.gw.json('interview_free', FREE, JSON.stringify({ interviewId: st.interviewId, turn, topics: st.expert.topics, transcript }), Free).catch(unavailable)
+      if (out) {
+        const topic = st.expert.topics.includes(out.value.topic) ? out.value.topic : st.expert.topics[0]
+        const plan: Plan = { topic, move: out.value.move, why: `chosen by ${out.model}` }
+        return { plan, turn, question: { interviewId: st.interviewId, turn, topic, move: plan.move, text: out.value.question } }
+      }
+      // The models are down: the code policy asks this one, so the expert is not left waiting.
     }
     const plan = this.s.policy === 'fixed' ? fixedMove(input, this.s.fixedQuestionnaire, this.s) : nextMove(input, this.s)
     const topics = { ...st.topics }
@@ -131,8 +142,10 @@ export class Interviewer {
     if (st.question && st.question.turn === st.turn) return {}
     const p = st.plan!
     const topic = this.topics.find((t) => t.id === p.topic)
-    const out = await this.gw.json('phrase', PHRASE, JSON.stringify({ interviewId: st.interviewId, turn: st.turn, topic: topic?.de ?? p.topic, move: p.move, about: p.about ?? null }), Phrased)
-    return { question: { interviewId: st.interviewId, turn: st.turn, topic: p.topic, move: p.move, about: p.about, text: out.value.question } }
+    const out = await this.gw.json('phrase', PHRASE, JSON.stringify({ interviewId: st.interviewId, turn: st.turn, topic: topic?.de ?? p.topic, move: p.move, about: p.about ?? null }), Phrased).catch(unavailable)
+    // The models are down: the question is asked from its template rather than not at all.
+    const text = out?.value.question ?? this.s.fallbackQuestions[p.move].replace('{topic}', topic?.de ?? p.topic).replace('{value}', p.about ? String(p.about.value) : '')
+    return { question: { interviewId: st.interviewId, turn: st.turn, topic: p.topic, move: p.move, about: p.about, text } }
   }
 
   private ask(st: S): Partial<S> {
@@ -143,9 +156,14 @@ export class Interviewer {
   private async read(st: S): Promise<Partial<S>> {
     const q = st.question!
     const a = st.answer!
-    const r = await readTurn(this.gw, this.glossary, this.s.smallTalk, { interviewId: st.interviewId, expert: st.expert.id, turn: q.turn, minute: a.minute, topic: q.topic, question: q.text, answer: a.text, confirm: q.move === 'confirm' })
+    const r = await readTurn(this.gw, this.glossary, this.s.smallTalk, { interviewId: st.interviewId, expert: st.expert.id, turn: q.turn, minute: a.minute, topic: q.topic, question: q.text, answer: a.text, confirm: q.move === 'confirm' }).catch(unavailable)
     const topics = { ...st.topics }
     const t = topics[q.topic] ?? { asked: [], found: [], empties: 0, closed: false }
+    if (!r) {
+      // The models are down: keep the answer, count the move as asked, but not as an answer with nothing new.
+      topics[q.topic] = { ...t, asked: [...t.asked, q.move] }
+      return { topics, turns: [{ question: q, answer: a, plan: st.plan!, claims: [], dropped: [], unread: true }] }
+    }
     const fresh = r.claims.filter((c) => !st.claims.some((o) => o.quote === c.quote))
     topics[q.topic] = { ...t, asked: [...t.asked, q.move], found: [...new Set([...t.found, ...fresh.map((c) => c.type)])], empties: fresh.length ? 0 : t.empties + 1 }
     let unchecked = st.unchecked

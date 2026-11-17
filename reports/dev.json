@@ -13,14 +13,14 @@
       "metrics": {
         "runs": 5,
         "knowledge": 310,
-        "captured": 220,
-        "capturedShare": 0.7097,
-        "tacitShare": 0.5765,
+        "captured": 221,
+        "capturedShare": 0.7129,
+        "tacitShare": 0.5824,
         "atRiskShare": 0.5714,
-        "perExpertHour": 21.46,
+        "perExpertHour": 21.56,
         "wrongFacts": 12,
         "noiseClaims": 0,
-        "claims": 284,
+        "claims": 285,
         "expertHours": 2.05,
         "questions": 225,
         "right": 0.64,
@@ -28,8 +28,9 @@
         "wrong": 0.2311,
         "honestGap": 0.1067,
         "missed": 0.0222,
-        "costPerSessionCents": 7.17,
-        "sessions": 80
+        "costPerSessionCents": 7.18,
+        "sessions": 80,
+        "unreadTurns": 0
       },
       "perSeed": [
         {
@@ -52,7 +53,8 @@
           "honestGap": 0.1333,
           "missed": 0.0667,
           "costPerSessionCents": 7.08,
-          "sessions": 16
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-2",
@@ -74,20 +76,21 @@
           "honestGap": 0.0889,
           "missed": 0.0222,
           "costPerSessionCents": 7.25,
-          "sessions": 16
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-3",
           "runs": 1,
           "knowledge": 62,
-          "captured": 38,
-          "capturedShare": 0.6129,
-          "tacitShare": 0.4286,
+          "captured": 39,
+          "capturedShare": 0.629,
+          "tacitShare": 0.4571,
           "atRiskShare": 0.2,
-          "perExpertHour": 18.58,
+          "perExpertHour": 19.07,
           "wrongFacts": 4,
           "noiseClaims": 0,
-          "claims": 56,
+          "claims": 57,
           "expertHours": 2.05,
           "questions": 45,
           "right": 0.5778,
@@ -95,8 +98,9 @@
           "wrong": 0.2667,
           "honestGap": 0.1333,
           "missed": 0.0222,
-          "costPerSessionCents": 7.15,
-          "sessions": 16
+          "costPerSessionCents": 7.16,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-4",
@@ -118,7 +122,8 @@
           "honestGap": 0.1111,
           "missed": 0,
           "costPerSessionCents": 7.18,
-          "sessions": 16
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-5",
@@ -139,8 +144,9 @@
           "wrong": 0.2444,
           "honestGap": 0.0667,
           "missed": 0,
-          "costPerSessionCents": 7.21,
-          "sessions": 16
+          "costPerSessionCents": 7.22,
+          "sessions": 16,
+          "unreadTurns": 0
         }
       ]
     },
@@ -165,8 +171,9 @@
         "wrong": 0.2267,
         "honestGap": 0.08,
         "missed": 0.0089,
-        "costPerSessionCents": 37.32,
-        "sessions": 35
+        "costPerSessionCents": 37.37,
+        "sessions": 35,
+        "unreadTurns": 0
       },
       "perSeed": [
         {
@@ -188,8 +195,9 @@
           "wrong": 0.1778,
           "honestGap": 0.0889,
           "missed": 0.0222,
-          "costPerSessionCents": 37.43,
-          "sessions": 7
+          "costPerSessionCents": 37.46,
+          "sessions": 7,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-2",
@@ -210,8 +218,9 @@
           "wrong": 0.2222,
           "honestGap": 0.0444,
           "missed": 0.0222,
-          "costPerSessionCents": 37.59,
-          "sessions": 7
+          "costPerSessionCents": 37.66,
+          "sessions": 7,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-3",
@@ -232,8 +241,9 @@
           "wrong": 0.2889,
           "honestGap": 0.1556,
           "missed": 0,
-          "costPerSessionCents": 36.93,
-          "sessions": 7
+          "costPerSessionCents": 36.96,
+          "sessions": 7,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-4",
@@ -254,8 +264,9 @@
           "wrong": 0.2667,
           "honestGap": 0.0444,
           "missed": 0,
-          "costPerSessionCents": 37.4,
-          "sessions": 7
+          "costPerSessionCents": 37.47,
+          "sessions": 7,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-5",
@@ -276,8 +287,9 @@
           "wrong": 0.1778,
           "honestGap": 0.0667,
           "missed": 0,
-          "costPerSessionCents": 37.25,
-          "sessions": 7
+          "costPerSessionCents": 37.28,
+          "sessions": 7,
+          "unreadTurns": 0
         }
       ]
     },
@@ -302,8 +314,9 @@
         "wrong": 0.0178,
         "honestGap": 0.1911,
         "missed": 0.0133,
-        "costPerSessionCents": 8.33,
-        "sessions": 80
+        "costPerSessionCents": 8.32,
+        "sessions": 80,
+        "unreadTurns": 0
       },
       "perSeed": [
         {
@@ -326,7 +339,8 @@
           "honestGap": 0.1333,
           "missed": 0,
           "costPerSessionCents": 8.64,
-          "sessions": 16
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-2",
@@ -347,8 +361,9 @@
           "wrong": 0,
           "honestGap": 0.2222,
           "missed": 0,
-          "costPerSessionCents": 7.93,
-          "sessions": 16
+          "costPerSessionCents": 7.92,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-3",
@@ -369,8 +384,9 @@
           "wrong": 0.0444,
           "honestGap": 0.2444,
           "missed": 0,
-          "costPerSessionCents": 8.43,
-          "sessions": 16
+          "costPerSessionCents": 8.42,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-4",
@@ -391,8 +407,9 @@
           "wrong": 0.0222,
           "honestGap": 0.1556,
           "missed": 0.0222,
-          "costPerSessionCents": 8.31,
-          "sessions": 16
+          "costPerSessionCents": 8.3,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-5",
@@ -414,7 +431,8 @@
           "honestGap": 0.2,
           "missed": 0.0444,
           "costPerSessionCents": 8.33,
-          "sessions": 16
+          "sessions": 16,
+          "unreadTurns": 0
         }
       ]
     },
@@ -440,7 +458,8 @@
         "honestGap": 0.1867,
         "missed": 0.0133,
         "costPerSessionCents": 7.6,
-        "sessions": 80
+        "sessions": 80,
+        "unreadTurns": 0
       },
       "perSeed": [
         {
@@ -462,8 +481,9 @@
           "wrong": 0.0222,
           "honestGap": 0.1333,
           "missed": 0,
-          "costPerSessionCents": 7.66,
-          "sessions": 16
+          "costPerSessionCents": 7.67,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-2",
@@ -484,8 +504,9 @@
           "wrong": 0.0222,
           "honestGap": 0.2,
           "missed": 0,
-          "costPerSessionCents": 7.64,
-          "sessions": 16
+          "costPerSessionCents": 7.62,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-3",
@@ -506,8 +527,9 @@
           "wrong": 0.1111,
           "honestGap": 0.2889,
           "missed": 0,
-          "costPerSessionCents": 7.39,
-          "sessions": 16
+          "costPerSessionCents": 7.38,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-4",
@@ -528,8 +550,9 @@
           "wrong": 0.0444,
           "honestGap": 0.1111,
           "missed": 0.0222,
-          "costPerSessionCents": 7.69,
-          "sessions": 16
+          "costPerSessionCents": 7.68,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-5",
@@ -550,8 +573,9 @@
           "wrong": 0.0222,
           "honestGap": 0.2,
           "missed": 0.0444,
-          "costPerSessionCents": 7.62,
-          "sessions": 16
+          "costPerSessionCents": 7.63,
+          "sessions": 16,
+          "unreadTurns": 0
         }
       ]
     },
@@ -561,14 +585,14 @@
       "metrics": {
         "runs": 5,
         "knowledge": 310,
-        "captured": 265,
-        "capturedShare": 0.8548,
-        "tacitShare": 0.8353,
+        "captured": 266,
+        "capturedShare": 0.8581,
+        "tacitShare": 0.8412,
         "atRiskShare": 0.9206,
-        "perExpertHour": 23.5,
+        "perExpertHour": 23.57,
         "wrongFacts": 7,
         "noiseClaims": 0,
-        "claims": 342,
+        "claims": 343,
         "expertHours": 2.26,
         "questions": 225,
         "right": 0.7378,
@@ -576,31 +600,33 @@
         "wrong": 0.0444,
         "honestGap": 0.1956,
         "missed": 0.0133,
-        "costPerSessionCents": 7.93,
-        "sessions": 80
+        "costPerSessionCents": 7.94,
+        "sessions": 80,
+        "unreadTurns": 0
       },
       "perSeed": [
         {
           "seed": "dev-1",
           "runs": 1,
           "knowledge": 62,
-          "captured": 53,
-          "capturedShare": 0.8548,
-          "tacitShare": 0.8529,
+          "captured": 54,
+          "capturedShare": 0.871,
+          "tacitShare": 0.8824,
           "atRiskShare": 0.875,
-          "perExpertHour": 24,
+          "perExpertHour": 24.32,
           "wrongFacts": 0,
           "noiseClaims": 0,
-          "claims": 69,
-          "expertHours": 2.21,
+          "claims": 70,
+          "expertHours": 2.22,
           "questions": 45,
           "right": 0.7333,
           "flagged": 0,
           "wrong": 0.0444,
           "honestGap": 0.2222,
           "missed": 0,
-          "costPerSessionCents": 7.79,
-          "sessions": 16
+          "costPerSessionCents": 7.84,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-2",
@@ -622,7 +648,8 @@
           "honestGap": 0.1778,
           "missed": 0,
           "costPerSessionCents": 7.82,
-          "sessions": 16
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-3",
@@ -644,7 +671,8 @@
           "honestGap": 0.2667,
           "missed": 0,
           "costPerSessionCents": 8.14,
-          "sessions": 16
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-4",
@@ -666,7 +694,8 @@
           "honestGap": 0.1556,
           "missed": 0.0222,
           "costPerSessionCents": 7.81,
-          "sessions": 16
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-5",
@@ -688,7 +717,8 @@
           "honestGap": 0.1556,
           "missed": 0.0444,
           "costPerSessionCents": 8.08,
-          "sessions": 16
+          "sessions": 16,
+          "unreadTurns": 0
         }
       ]
     },
@@ -713,8 +743,9 @@
         "wrong": 0.1644,
         "honestGap": 0.0311,
         "missed": 0.0178,
-        "costPerSessionCents": 8.32,
-        "sessions": 80
+        "costPerSessionCents": 8.31,
+        "sessions": 80,
+        "unreadTurns": 0
       },
       "perSeed": [
         {
@@ -736,8 +767,9 @@
           "wrong": 0.1333,
           "honestGap": 0.0222,
           "missed": 0.0444,
-          "costPerSessionCents": 8.63,
-          "sessions": 16
+          "costPerSessionCents": 8.62,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-2",
@@ -758,8 +790,9 @@
           "wrong": 0.1556,
           "honestGap": 0.0444,
           "missed": 0.0222,
-          "costPerSessionCents": 7.93,
-          "sessions": 16
+          "costPerSessionCents": 7.92,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-3",
@@ -780,8 +813,9 @@
           "wrong": 0.2667,
           "honestGap": 0.0222,
           "missed": 0.0222,
-          "costPerSessionCents": 8.46,
-          "sessions": 16
+          "costPerSessionCents": 8.45,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-4",
@@ -802,8 +836,9 @@
           "wrong": 0.1333,
           "honestGap": 0.0222,
           "missed": 0,
-          "costPerSessionCents": 8.28,
-          "sessions": 16
+          "costPerSessionCents": 8.27,
+          "sessions": 16,
+          "unreadTurns": 0
         },
         {
           "seed": "dev-5",
@@ -825,7 +860,8 @@
           "honestGap": 0.0444,
           "missed": 0,
           "costPerSessionCents": 8.31,
-          "sessions": 16
+          "sessions": 16,
+          "unreadTurns": 0
         }
       ]
     }
